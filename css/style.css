@@ -324,7 +324,7 @@ titel{
 	display: inherit;
 	text-align: center;
 	color: white;
-	margin-top: -230px;
+	margin-top: 230px;
 	border: solid white 2px;
 	font-size: 40px;
 	width: 60%;
@@ -506,7 +506,7 @@ titel{
 	text-align: center;
 	color: white;
 	font-weight: 200;
-	margin-top: -90px;
+	margin-top: 90px;
 	border: solid white 1px;
 	font-size: 18px;
 	width: 90%;
