@@ -447,7 +447,7 @@ p {
     margin-top: 0;
 	line-height: 1.8;
 	margin-bottom: 25px;
-	margin-right: 80px;
+	margin-right: 20px;
 	width: 70%;
 	
 	
@@ -514,7 +514,7 @@ titel{
 	line-height: 22px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
-	transform: rotate(2deg);
+
 	margin-right:auto;
     margin-left: auto;
 }
@@ -533,7 +533,6 @@ ondertitel{
 	line-height: 17px;
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
-	transform: rotate(-3deg);
 	margin-right:auto;
     margin-left: auto;
 }
