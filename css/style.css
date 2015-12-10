@@ -1,6 +1,7 @@
 body {	
 	background-color:white;
 	font-family: 'Noto Sans', sans-serif;
+	padding:0;
 }
 
 header {
@@ -9,7 +10,8 @@ header {
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 150px;
 	letter-spacing: 1px;
-	font-weight: 80;
+	font-weight: normal;
+	padding:0;
 }
 
 p {
@@ -19,4 +21,5 @@ p {
 	width: 50%;
 	line-height: 2.0;
 	margin-bottom: 50px;
+	padding:0;
 }
