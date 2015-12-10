@@ -1,12 +1,12 @@
 body {	
 	background-color:white;
-	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 header {
     font-size: 50px;
 	margin-left: 290px;
-	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	margin-top: 150px;
 	letter-spacing: 1px;
 	font-weight: 80;
@@ -14,7 +14,7 @@ header {
 
 p {
 	font-size: 16px;
-	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
     margin-left: 290px;
 	width: 50%;
 	line-height: 2.0;
