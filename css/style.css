@@ -5,7 +5,7 @@ body {
 
 header {
     font-size: 50px;
-	margin-left: 300px;
+	margin: 0px auto;
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 200px;
 	letter-spacing: 1px;
