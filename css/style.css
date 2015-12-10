@@ -22,4 +22,5 @@ p {
 	line-height: 2.0;
 	margin-bottom: 50px;
 	padding:0;
+	border:1px solid black;
 }
