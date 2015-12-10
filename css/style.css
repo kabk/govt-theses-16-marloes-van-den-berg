@@ -7,16 +7,16 @@ header {
     font-size: 50px;
 	margin-left: 290px;
 	font-family: 'Noto Sans', sans-serif;
-	margin-top: 200px;
+	margin-top: 150px;
 	letter-spacing: 1px;
-	font-weight: 100;
+	font-weight: 80;
 }
 
 p {
-	font-size: 19px;
+	font-size: 16px;
 	font-family: 'Noto Sans', sans-serif;
     margin: 0px auto;
 	width: 50%;
-	line-height: 1.8;
-	margin-bottom: 25px;
+	line-height: 2.0;
+	margin-bottom: 50px;
 }
