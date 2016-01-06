@@ -4,8 +4,7 @@ body {
 	padding:0;
 }
 
-header {
-    font-size: 50px;
+.header {
 	margin-left: 290px;
 	font-family: 'Noto Sans', sans-serif;
 	margin-top: 150px;
@@ -14,13 +13,66 @@ header {
 	padding:0;
 }
 
+
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+
+
+}
+
+
 p {
 	font-size: 16px;
 	font-family: 'Noto Sans', sans-serif;
+	margin-bottom: 50px;
+	padding:0;
+
+}
+
+.grid-item {
+  float: left;
+  width: 80px;
+  height: 60px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+
+.intro{
+
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
     margin-left: 290px;
-	width: 50%;
+	width: 400px;
 	line-height: 2.0;
 	margin-bottom: 50px;
 	padding:0;
 	border:3px solid black;
+	float:left;
+}
+
+.inleiding{
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+	width: 200px;
+	line-height: 2.0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding:0;
+	border:3px solid black;
+	float:left;
+}
+
+.test{
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+	width: 200px;
+	line-height: 2.0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding:0;
+	border:3px solid black;
+	clear: both;
 }
