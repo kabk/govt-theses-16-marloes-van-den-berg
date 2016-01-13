@@ -1,321 +1,718 @@
-<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
-      <title> Grensmuren </title>
+    
+    <title>Alien Communication</title>
+    <meta charset="utf-8"/> <!-- You need this so the browser can understand ‘typographic quotes’ and accented characters éëê etc.-->
 
-      <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-          <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- Stops mobile browsers from ‘zooming out’: this allows you to create specific layout for mobile -->
 
-
-            <title>Grensmuren</title>
-
-            <meta name="description" content="Wat zijn grensmuren en wat doen ze met de ruimtelijkheid?" />
-            <meta property="og:title" content="Grensmuren wat zijn het?" />
-            <meta property="og:image" content="http://kabk.github.io/govt-theses-16-marloes-van-den-berg-fenomeen-muur/images/runningfence.jpg" />
-            <meta property="dc:creator" content="Marloes van den Berg" />
+        <!-- A short description of the page: -->
+        <meta name="description" content="In the hypothetical case of contact with an extraterrestrial life form, what would our communication look like?">
+                
+        <!-- This is the title used by Facebook/Twitter: they recommend to leave out the site name -->
+        <meta property="og:title" content="Extraterrestrial communication" />
+        <!-- This is the the preview image used by Facebook/Twitter.
+             Facebook currently prefers a 1200x630 image
+             Import: this has to be an absolute url including the domain name -->
+        <meta property="og:image" content="http://kabk.github.com/govt-theses-16-jorick-de-quaasteniet-communication-with-extraterrestrial-lifeforms/images/header.gif">
         
 
+        <!-- This metadata encodes the author of the page. It is currently not used by Facebook, Twitter,
+             but the script generating our index does use it. -->
+        <meta property="dc:creator" content="van den Berg, Marloes"/>
+
+        <!-- When you first published the page, and when it was last modified -->
+        <meta property="dc:created" content="2015-12-05T00:00:00Z" />
+        <meta property="dc:modified" content="2015-12-05T00:00:00Z" />
+  
+
+  
+    <link rel="stylesheet" href="css/style.css">
+  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+  <!-- Progress Bar -->
+  
+  
+  
+  
+  
+  <!--Image Text Linking-->
+  
+
+  
+  
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
 </head>
-
-    <body>
-
-
-<div class="navi2">
-      <p>
-        <b><a href="#1">Metaforen en Grafisch </a></b> <br>
-        <b><a href="#2">Manifestaties </a></b><br>
-        <b><a href="#3">Feiten</a></b><br>
-        <b><a href="#4">De feiten </a></b><br>
-        <b><a href="#5">Blabla </a></b><br>
-      
-      </p>
-    </div>
+<body>
 
 
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-<div class="header">
-    <h1>GRAFISCHE VISIES<br> OP DE GRENSMUUR
-</h1>
-<h2>Een zoektocht naar de grafische perspectieven<br> van de grensmuur door middel van een analyse<br> van grensmuren in de realiteit.</h2>
+    // Prevent default anchor click behavior
+    event.preventDefault();
 
+    // Store hash
+    var hash = this.hash;
+    
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top,
+        scrollLeft: $(hash).offset().left
+    }, 800, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+});
+</script>
+
+
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<nav class="nav-bar">
+  <ul>
+
+    <li><a href="#startid">Titel</a></li>
+    <li><a href="#abstractid">Abstract</a></li>
+    <li><a href="#inleidingid">1. Inleiding</a></li>
+    <li><a href="#vierid">2. Vier soorten grenzen</a></li>
+    <li><a href="#casusid">3. Casus onderzoek</a></li>
+    <li><a href="#botsid">&nbsp;&nbsp;&nbsp;&nbsp;3.1 Botswana en Zimbabwe</a></li>
+    <li><a href="#runningid">&nbsp;&nbsp;&nbsp;&nbsp;3.2 The Running Fence</a></li>
+    <li><a href="#ruimteid">&nbsp;&nbsp;&nbsp;&nbsp;3.3 De grens vanuit de ruimte</a></li>
+    <li><a href="#breedtid">&nbsp;&nbsp;&nbsp;&nbsp;3.4 De 38e breedtegraad</a></li>
+    <li><a href="#belfastid">&nbsp;&nbsp;&nbsp;&nbsp;3.5 De 99 muren van Belfast</a></li>
+    <li><a href="#bermid">&nbsp;&nbsp;&nbsp;&nbsp;3.6 De Marokkaanse berm</a></li>
+    <li><a href="#greenid">&nbsp;&nbsp;&nbsp;&nbsp;3.7 The Green Line</a></li>
+    <li><a href="#zoneid">&nbsp;&nbsp;&nbsp;&nbsp;3.8 No touching zone</a></li>
+    <li><a href="#rusid">&nbsp;&nbsp;&nbsp;&nbsp;3.9 Het conflict tussen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rusland en Georgië</a></li>
+    <li><a href="#favid">&nbsp;&nbsp;&nbsp;&nbsp;3.10 De Braziliaanse favela’s</a></li>
+    <li><a href="#straatid">&nbsp;&nbsp;&nbsp;&nbsp;3.11 De Straat van Gibraltar</a></li>
+    <li><a href="#conclusieid">4. Conclusie</a></li>
+    <li><a href="#bronnenid">5. Bronnen</a></li>
+
+
+
+  </ul>
+</nav>
+
+<div style="width:10000px; height:10000px; overflow:scroll">
+
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+
+
+<div id="startid">
 </div>
 
-<div class="intro" id="1">
-<h2> Inleiding</h2>
 
-<p> In het tijdperk van globalisering groeit het aantal grensmuren in de wereld als nooit tevoren en veranderen de grenzen met de mens mee. Regeringen nemen dan ook steeds vaker de beslissing om nationale ruimten op een materialistische manier af te bakenen. Niet alle landen die aan elkaar grenzen hebben namelijk vrede met elkaar en willen hun eigen land beschermen. Deze landen versterken de grens met barrières, dit kunnen betonnen wanden en ijzeren hekwerken zijn, maar ook zandvlakten met militaire bewaking. Ook wel een grensmuur genoemd. De meest voorkomende motieven voor het bouwen van grensmuren is (mensen)smokkel, illegale migratie, geweld en terrorisme, maar kan bijvoorbeeld ook ziekte zijn.  
-In de atlas worden de nationale grenzen weergegeven door statische en duidelijke scheidingslijnen. In sommige gebieden kunnen deze lijnen lineair zijn; bijvoorbeeld te zien in het continent Afrika, maar ze kunnen ook een ingewikkelde zigzag-structuur hebben, zoals te zien is in de Westerse gebieden. Echter zijn de grenzen die men in de atlas ziet alleen een houvast voor het concept ‘nationaal land’ en waar het zich in verhouding tot andere landen bevindt. Wat veel mensen niet van op de hoogte zijn, is dat er nog veel meer grenzen zijn dan de grenzen die verschillende naties van elkaar scheiden. Deze kunnen net zoals landgrenzen conceptueel, imaginair zijn of daadwerkelijk fysiek.   Vooral nu, anno 2015, komen er via Zuid-Europa immens veel vluchtelingen en gelukzoekers binnen en groeit daar het aantal grensmuren. Deze grensmuren fungeren niet alleen voor bescherming voor een nationaal gebied, maar reiken tot een ruimte wat heel Europa betreft. Dit is dan ook een duidelijk voorbeeld dat laat zien dat grensmuren meer inhouden dan een alleen een nationale grens. Deze vluchtelingen die de grenzen van Europa proberen te overbruggen overwegen levensgevaarlijke trajecten om armoede en oorlog in het thuisland te ontvluchten. Elke dag sterven er weer migranten door de grensmuur als wegversperring, waardoor voedsel en zorg uitblijven op kritieke momenten. ’De grensmuren die nu bestaan rond Europa maken de tocht gevaarlijker voor vluchtelingen en voordeliger voor mensensmokkelaars’, aldus professor Michel Foucher.<br>
+<div id="start">
+<h1>GRAFISCHE VISIES <br> OP DE GRENSMUUR</h1>
 
-Er zijn dan ook veel emoties betrokken rondom de muur als construct an sich. Voor sommigen kan het een bescherming zorgen en daarmee een gevoel van veiligheid, voor anderen kan staan voor een teken van dictatuur waardoor het een onderdrukkend gevoel kan geven. Voor anderen is een muur juist een construct waarop men zijn of haar onderdrukte of beschermde emoties kan uiten door middel van kunst. Straks zullen we ook zien dat er mensen opzettelijk een muur construeren om te ondervinden wat een muur doet in een omgeving waar je het niet verwacht. <br>
 
-Hieruit kan men bedenken dat een grensmuur geen origineel model heeft. Het is een simulatie van een model dat we een eigen realiteit zijn gaan meegeven. De kracht van de grens wordt daarom niet bepaald door de fysieke verschijningsvorm, maar door de macht waarmee die al dan niet repressief gehandhaafd en moreel geladen wordt. Het wezen van een grens gaat dus niet alleen over het object van de grens, maar vooral over de machtspraktijken die een ruimtelijke invloed hebben en betekenis geven aan de grens. Kortom, een grens is geen zelfstandig naamwoord, maar een werkwoord. Het is een productieproces, want het is voortdurend afhankelijk van handhaving en interpretatie.  
-Echter, als grafisch ontwerper gezien is een grens uiteindelijk een lijn, die getrokken wordt met een pen op een landkaart, of een doek, of op straat, en uiteindelijk fysiek wordt of niet. De lijn wordt op dat moment concreet terwijl het misschien eerst een stippellijn (niet definitief) is geweest. Dus wat doet vorm met ruimten? En wat doen lijnen met vormen? Alle lijnen geven een bepaald inzicht waar iedereen weer anders op reageert. Het kan een afscheiding zijn, maar ook een hereniging. Een vertrekpunt als men de strijd aan gaat. Of een punt waar het gevoel van thuiskomen aansterkt, als je met de auto vanuit België de Nederlandse grens over rijdt. Lijnen vormen als het ware een werkelijkheid op zich en maken als zodanig deel uit van de totale werkelijkheid. Ze vormen de plastische structuur van ónze werkelijkheid, ónze leefwereld.
+<span class="next"> <a href="#abstractid"> <h1> • </h1> </a></span>
+</p>
+</div>
 
+
+
+
+
+
+
+
+<div id="abstractid">
+</div>
+
+
+<div id="abstract">
+<h1>Abstract</h1>
+
+<p> GRAPHICS VISIONS ON THE BORDER WALL</p>
+
+<p>Since the end of World War II, the number of border walls in the world has increased dramatically. From one border wall in 1945 to 46 in 2010. Moreover, in the last decade three quarters of all current border walls were built. We are talking here of a massive increase in border walls. The main reason for raising walls remains the exclusion of "the other", that terrorists may be in the case of the United States, but this example could also be boat refugees as we have seen last May 2015 in the Mediterranean.
+</p>
+
+<p>There are many emotions involved around the wall and construct. For some, it can provide protection and thus a sense of security, for others it can be a sign of dictatorship so it can give an oppressive feeling.  It could too be experienced as a construct which upon one expresses him or herself by using art through emotions of fear or protection.</p>
+
+<p>Although a border seems to have an original model, it has not. Each and every border is a simulation of a model that we give an own reality. The strength of the boundary is therefore not determined by the physical appearance, but by the power that it whether or not enforces repressive or moral loads. The essence of a border is not only about the subject of the border, but especially about the power practices that have a spatial impact and give meaning to the border. In short, a boundary is not a noun but a verb. It is a production process, as it is constantly subject to enforcement and interpretation.</p>
+
+<p>However, as a graphic designer a boundary is given as a line, which is drawn with a pen on a map, or a cloth, or on the street, and eventually becomes physical or not. Lines form as it were a reality in itself, and are as such part of the total reality. They form the plastic structure of our reality, our world.</p>
+
+<p>The way in which a border wall is expressed in graphic design sounds actually quite unemotional, despite the fact that in real circumstances it is considered to be full of emotional loads. Therefore, in this thesis,  I am going to analyse a variety of border walls to get more insight in how to contrive ‘new’ graphic perspectives on the border wall by especially exploring the social causes on society.</p>
+
+
+<span class="next"> <a href="#inleidingid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+<div id="inleidingid">
+</div>
+
+
+<div id="inleiding">
+    <h1>Inleiding</h1>
+
+<p>In het tijdperk van globalisering groeit het aantal grensmuren in de wereld als nooit tevoren en veranderen de grenzen met de mens mee. Regeringen nemen dan ook steeds vaker de beslissing om nationale ruimten op een materialistische manier af te bakenen. Niet alle landen die aan elkaar grenzen hebben namelijk vrede met elkaar en willen hun eigen land beschermen. Deze landen versterken de grens met barrières, dit kunnen betonnen wanden en ijzeren hekwerken zijn, maar ook zandvlakten met militaire bewaking. Ook wel een grensmuur genoemd. De meest voorkomende motieven voor het bouwen van grensmuren is (mensen)smokkel, illegale migratie, geweld en terrorisme, maar kan bijvoorbeeld ook ziekte zijn.</p>
+<p>
+In de atlas worden de nationale grenzen weergegeven door statische en duidelijke scheidingslijnen. In sommige gebieden kunnen deze lijnen lineair zijn; bijvoorbeeld te zien in het continent Afrika, maar ze kunnen ook een ingewikkelde zigzag-structuur hebben, zoals te zien is in de Westerse gebieden. Echter zijn de grenzen die men in de atlas ziet alleen een houvast voor het concept ‘nationaal land’ en waar het zich in verhouding tot andere landen bevindt. Wat veel mensen niet van op de hoogte zijn, is dat er nog veel meer grenzen zijn dan de grenzen die verschillende naties van elkaar scheiden. Deze kunnen net zoals landgrenzen conceptueel, imaginair zijn of daadwerkelijk fysiek.   Vooral nu, anno 2015, komen er via Zuid-Europa immens veel vluchtelingen en gelukzoekers binnen en groeit daar het aantal grensmuren. Deze grensmuren fungeren niet alleen voor bescherming voor een nationaal gebied, maar reiken tot een ruimte wat heel Europa betreft. Dit is dan ook een duidelijk voorbeeld dat laat zien dat grensmuren meer inhouden dan een alleen een nationale grens. Deze vluchtelingen die de grenzen van Europa proberen te overbruggen overwegen levensgevaarlijke trajecten om armoede en oorlog in het thuisland te ontvluchten. Elke dag sterven er weer migranten door de grensmuur als wegversperring, waardoor voedsel en zorg uitblijven op kritieke momenten. ’De grensmuren die nu bestaan rond Europa maken de tocht gevaarlijker voor vluchtelingen en voordeliger voor mensensmokkelaars’, aldus professor Michel Foucher.</p>
+
+<p>
+Er zijn dan ook veel emoties betrokken rondom de muur als construct an sich. Voor sommigen kan het een bescherming zorgen en daarmee een gevoel van veiligheid, voor anderen kan staan voor een teken van dictatuur waardoor het een onderdrukkend gevoel kan geven. Voor anderen is een muur juist een construct waarop men zijn of haar onderdrukte of beschermde emoties kan uiten door middel van kunst. Straks zullen we ook zien dat er mensen opzettelijk een muur construeren om te ondervinden wat een muur doet in een omgeving waar je het niet verwacht.</p> 
+<p>
+Hieruit kan men bedenken dat een grensmuur geen origineel model heeft. Het is een simulatie van een model dat we een eigen realiteit zijn gaan meegeven. De kracht van de grens wordt daarom niet bepaald door de fysieke verschijningsvorm, maar door de macht waarmee die al dan niet repressief gehandhaafd en moreel geladen wordt. Het wezen van een grens gaat dus niet alleen over het object van de grens, maar vooral over de machtspraktijken die een ruimtelijke invloed hebben en betekenis geven aan de grens. Kortom, een grens is geen zelfstandig naamwoord, maar een werkwoord. Het is een productieproces, want het is voortdurend afhankelijk van handhaving en interpretatie.  </p>
+<p>
+Echter, als grafisch ontwerper gezien is een grens uiteindelijk een lijn, die getrokken wordt met een pen op een landkaart, of een doek, of op straat, en uiteindelijk fysiek wordt of niet. De lijn wordt op dat moment concreet terwijl het misschien eerst een stippellijn (niet definitief) is geweest. Dus wat doet vorm met ruimten? En wat doen lijnen met vormen? Alle lijnen geven een bepaald inzicht waar iedereen weer anders op reageert. Het kan een afscheiding zijn, maar ook een hereniging. Een vertrekpunt als men de strijd aan gaat. Of een punt waar het gevoel van thuiskomen aansterkt, als je met de auto vanuit België de Nederlandse grens over rijdt. Lijnen vormen als het ware een werkelijkheid op zich en maken als zodanig deel uit van de totale werkelijkheid. Ze vormen de plastische structuur van ónze werkelijkheid, ónze leefwereld.</p>
+<p>
 Na enig onderzoek vanuit mijn interesse voor de grensmuur ben ik erachter gekomen dat een grens in de grafische wereld vrij simplistisch wordt benaderd. Namelijk als een lijn van links naar rechts of van rechts naar links, hoe je wilt. Ik ben van persoonlijke mening dat een grensmuur, helemaal vanuit de actualiteit van nu, uit meerdere facetten bestaat die nader onderzocht dienen te worden. Dat is ook de reden waarom ik in dit onderzoek op zoek ga naar verschillende dimensies van de grensmuur door verscheidende bestaande grensmuren in de realiteit te bestuderen. Om er uiteindelijk grafisch mee aan de slag te kunnen gaan. 
-Mijn onderzoeksvraag ziet er dan ook als volgt uit: Wat zijn er voor een (imaginaire) grensmuren en wat doen ze met de ruimtelijkheid? Wat zijn er voor een grensmuren en kunnen deze grensmuren nieuwe grafische perspectieven op de grensmuur bieden? Het is dus van groot belang dat de voorliggende connotatie van grensmuur niet altijd aangenomen moet worden; namelijk die van een vast construct, als een muur zodanig. Het neemt meerdere vormen aan zoals we straks zullen zien. 
+Mijn onderzoeksvraag ziet er dan ook als volgt uit: Wat zijn er voor een (imaginaire) grensmuren en wat doen ze met de ruimtelijkheid? Wat zijn er voor een grensmuren en kunnen deze grensmuren nieuwe grafische perspectieven op de grensmuur bieden? Het is dus van groot belang dat de voorliggende connotatie van grensmuur niet altijd aangenomen moet worden; namelijk die van een vast construct, als een muur zodanig. Het neemt meerdere vormen aan zoals we straks zullen zien. </p>
+<p>
+Uiteindelijk ga ik elf verschillende casussen behandelen. Ik analyseer de ruimtelijkheid van een muur door van alle casussen de historie, de esthetiek en de sociale ontwikkelingen rondom de grensmuur te onderzoeken. Ruimtelijkheid is namelijk een begrip wat verschillende disciplines beslaat. Alhoewel ik me (natuurlijk) vooral bezig houd met het grafische aspect van de muur ben ik ook van mening dat sociale praktijken rondom de grensmuur een belangrijk deel uitmaakt van de totstandkoming. De vormgeving van een grensmuur wordt bepaald door emoties van één mens of meerdere mensen. En het construct bepaald weer hoe men erover voelt. Emoties en structuur zijn dus nauw verbonden met elkaar, en die wil ik al grafisch ontwerper, als student van een vak wat grenst aan meerdere disciplines, bestuderen.</p> 
+<p>
+Uiteindelijk heb ik grenzen gekozen die veel van elkaar verschillen, dus zowel van fysieke aard als imaginair, namelijk: De verdeelde woestijn in Marokko; de 99 muren in Belfast en Derry; de No Touching-zone tussen Canada en USA; de grens tussen Botswana en Zimbabwe; de kruipende grens van Rusland; de grens tussen India en Pakistan; de 38ste breedtegraad, ook wel de grens tussen Noord en Zuid-Korea; de grensmuur om de favela’s in Brazilië; de zee-engte van Gibraltar; de Running Fence van Christo en The Green Line van Francis Alÿs. Maar ik zal allereerst </p>
 
-Uiteindelijk ga ik elf verschillende casussen behandelen. Ik analyseer de ruimtelijkheid van een muur door van alle casussen de historie, de esthetiek en de sociale ontwikkelingen rondom de grensmuur te onderzoeken. Ruimtelijkheid is namelijk een begrip wat verschillende disciplines beslaat. Alhoewel ik me (natuurlijk) vooral bezig houd met het grafische aspect van de muur ben ik ook van mening dat sociale praktijken rondom de grensmuur een belangrijk deel uitmaakt van de totstandkoming. De vormgeving van een grensmuur wordt bepaald door emoties van één mens of meerdere mensen. En het construct bepaald weer hoe men erover voelt. Emoties en structuur zijn dus nauw verbonden met elkaar, en die wil ik al grafisch ontwerper, als student van een vak wat grenst aan meerdere disciplines, bestuderen. 
 
-Uiteindelijk heb ik grenzen gekozen die veel van elkaar verschillen, dus zowel van fysieke aard als imaginair, namelijk: De verdeelde woestijn in Marokko; de 99 muren in Belfast en Derry; de No Touching-zone tussen Canada en USA; de grens tussen Botswana en Zimbabwe; de kruipende grens van Rusland; de grens tussen India en Pakistan; de 38ste breedtegraad, ook wel de grens tussen Noord en Zuid-Korea; de grensmuur om de favela’s in Brazilië; de zee-engte van Gibraltar; de Running Fence van Christo en The Green Line van Francis Alÿs. Maar ik zal allereerst beginnen met een overzicht van de soorten grenzen in de wetenschappelijke literatuur. 
-</p>
+<span class="next"> <a href="#vierid"> <h1> • </h1> </a></span>
+
 </div>
 
 
 
 
-<div class="deel2" id="2">
-  <h2>Vier soorten muren</h2>
-<p> 2. VIER SOORTEN GRENZEN
+<div id="vierid">
+</div>
 
+
+<div id="vier">
+    <h1>Vier soorten grenzen</h1>
+<p>
 Volgens Stéphane Rosière en Reece Jones zijn er vier verschillende soorten grensmuren. 
-Het eerste type grens verwijst naar het oudere militaire doel van grenzen en wordt gekenmerkt door het bestaan ​​van een lege ruimte (No Touching Zone) tussen twee landen of zones; ook wel frontlinie genoemd. Deze zone wordt aan beide kanten bewaakt door militaire installaties. Dit zie je bijvoorbeeld terug bij de grens tussen Noord en Zuid-Korea. De frontlinie in de Westelijke Sahara ook wel de ‘Berm’ genoemd is de langste frontlinie deze is 2700 km en vertegenwoordigd 51,6 procent van de bestaande frontlinies op aarde. Ongeveer 13 procent van de grenzen in de wereld zijn frontlinies.<br>
+Het eerste type grens verwijst naar het oudere militaire doel van grenzen en wordt gekenmerkt door het bestaan ​​van een lege ruimte (No Touching Zone) tussen twee landen of zones; ook wel frontlinie genoemd. Deze zone wordt aan beide kanten bewaakt door militaire installaties. Dit zie je bijvoorbeeld terug bij de grens tussen Noord en Zuid-Korea. De frontlinie in de Westelijke Sahara ook wel de ‘Berm’ genoemd is de langste frontlinie deze is 2700 km en vertegenwoordigd 51,6 procent van de bestaande frontlinies op aarde. Ongeveer 13 procent van de grenzen in de wereld zijn frontlinies.</p>
 
-De tweede en derde soorten barrières zijn hekken en muren deze vertegenwoordigen ongeveer 87 procent van de hedendaagse grenzen. Ze zijn vergelijkbaar in het ordenen van ruimte, maar het woord muur heeft semantisch gezien een negatieve lading ten opzichte van het woord hek, veel positiever. De term muur suggereert een totale sluiting, zoals de Berlijnse muur (augustus 1961- november 1989). Terwijl de term hek noties oproept van landbouw of zelfs witte hekjes gerelateerd aan ‘goede buren’. Gevolg hiervan is dat taal een grote rol speelt wat een ander perspectief kan bieden op het zicht van de spreker. Bijvoorbeeld, Israël de Westelijke Jordaanoever wordt de barrière aangeduid als het 'veiligheidshek' of de 'anti-terreur hek', terwijl op de Westelijke Jordaanoever het de 'muur' of de 'Apartheid muur’ word genoemd.
-Qua materiaal zit er ook een verschil tussen hekken en muren. Hekken klinken tijdelijk, ze kunnen snel opgebouwd worden en blokkeren het zicht naar de andere kan niet. Muren lijken meer definitief en blokken het zicht naar de andere kant van de grens. <br>
+<p>De tweede en derde soorten barrières zijn hekken en muren deze vertegenwoordigen ongeveer 87 procent van de hedendaagse grenzen. Ze zijn vergelijkbaar in het ordenen van ruimte, maar het woord muur heeft semantisch gezien een negatieve lading ten opzichte van het woord hek, veel positiever. De term muur suggereert een totale sluiting, zoals de Berlijnse muur (augustus 1961- november 1989). Terwijl de term hek noties oproept van landbouw of zelfs witte hekjes gerelateerd aan ‘goede buren’. Gevolg hiervan is dat taal een grote rol speelt wat een ander perspectief kan bieden op het zicht van de spreker. Bijvoorbeeld, Israël de Westelijke Jordaanoever wordt de barrière aangeduid als het 'veiligheidshek' of de 'anti-terreur hek', terwijl op de Westelijke Jordaanoever het de 'muur' of de 'Apartheid muur’ word genoemd.
+Qua materiaal zit er ook een verschil tussen hekken en muren. Hekken klinken tijdelijk, ze kunnen snel opgebouwd worden en blokkeren het zicht naar de andere kan niet. Muren lijken meer definitief en blokken het zicht naar de andere kant van de grens.</p> 
 
-De laatste soort grens barrière is gesloten maritieme zeestraat. Dit soort barrière wordt vaak vergeten maar is zeer belangrijk met het oog op het beheersen van ongewenste migratiestromen. Zoals de zeestraat tussen Gibraltar (Spanje) en Noord-Afrika. Deze zeestraat bestaat uit een virtueel hek. Vaak is het hek uitgevoerd op de immigratiezijde (rijke kust) rond verkeerstorens waaraan diverse alarmsystemen, satelliet, radar, en het vliegtuig verkenning zijn aangesloten. Deze systemen hebben als doel om de komst van ongeautoriseerde boten te detecteren en laat hen onderscheppen voordat ze aan land komen.<br>
+<p>De laatste soort grens barrière is gesloten maritieme zeestraat. Dit soort barrière wordt vaak vergeten maar is zeer belangrijk met het oog op het beheersen van ongewenste migratiestromen. Zoals de zeestraat tussen Gibraltar (Spanje) en Noord-Afrika. Deze zeestraat bestaat uit een virtueel hek. Vaak is het hek uitgevoerd op de immigratiezijde (rijke kust) rond verkeerstorens waaraan diverse alarmsystemen, satelliet, radar, en het vliegtuig verkenning zijn aangesloten. Deze systemen hebben als doel om de komst van ongeautoriseerde boten te detecteren en laat hen onderscheppen voordat ze aan land komen.</p>
 
-Niet alle grenzen die er gemaakt worden hebben een van deze factoren hierboven. Ook zijn er kunstenaars die werk maken met het fenomeen grens die letterlijk landsgrenzen opzoeken en daar een statement mee willen maken. Of kritische kunstenaars die grensmuren willen doorbreken maar daar een eigen invulling aangeven. <br>
+<p>Niet alle grenzen die er gemaakt worden hebben een van deze factoren hierboven. Ook zijn er kunstenaars die werk maken met het fenomeen grens die letterlijk landsgrenzen opzoeken en daar een statement mee willen maken. Of kritische kunstenaars die grensmuren willen doorbreken maar daar een eigen invulling aangeven.</p> 
 
+
+<span class="next"> <a href="#casusid"> <h1> • </h1> </a></span>
+
+</div>
+
+
+
+
+
+<div id="casusid">
+</div>
+
+
+<div id="casus">
+    <h1>CASUS ONDERZOEK</h1>
+
+<span class="next"> <a href="#botsid"> <h1> • </h1> </a></span>
+
+</div>
+
+
+
+
+<div id="botsid">
+</div>
+
+
+<div id="bots">
+<h1>Botswana <br>en Zimbabwe</h1>
+
+<p> 
+Tussen 2001-2003 brak er in het noordoosten van Botswana een epidemie van mond- en klauwzeer (MKZ) uit waarbij de vee-industrie zwaar getroffen werd. Zimbabwe werd beschuldigd van het verspreiden van deze besmettelijke ziekte die zorgde voor de nodige spanning tussen de nationale gemeenschappen.</p>
+
+<p>In 2003 heeft Botswana plannen aangekondigd om een elektrische afrastering te bouwen. Officieel gezien om de verspreiding van MKZ tegen te gaan. Ook werden de Zimbabwanen gecontroleerd en bagage gedesinfecteerd van sporen van MKZ wat verdere verspreiding tegen zou gaan. Maar door de spanningen hebben veel burgers ervoor gekozen te emigreren naar Botswana voordat de grens zou worden gebouwd. In Botswana draaide de economie beter en ook de politiek kende daar meer stabiliteit. Duizenden Zimbabwanen verlieten massaal het land.
+De Zimbabwaanse hoge commissaris van Gaborone, Phelekeza Mphoko, was het uiteraard niet eens met de grensmuur waarvan alleen Botswana een voorstander was. Hij zei hierover: “Botswana probeert een Gazastrook te creëren”.</p>
+
+<p>Het hek dat gebouwd werd zou in eerst instantie 4 meter hoog worden. Uiteindelijk is dit 2,4 meter hoog geworden met een 220-voltage. Ook zou het hek oorspronkelijk 500 kilometer lang worden, alleen door moeilijk terrein is de levering van materialen moeizaam en is het hek nog niet volledig afgebouwd. In 2006 besloot de overheid dat een elektrische afrastering niet werkte aangezien de installatie op diverse plekken beschadigd was door zowel dieren als mensen. Dit omdat de voltage veel te hoog stond.</p> 
+
+<p>Uiteindelijk heeft dit hek meerdere dynamische betekenissen/functies die afhankelijk zijn van het perspectief waaruit wordt gekeken. Voor dieren is dit hek overduidelijk een obstakel en kunnen ze er moeilijk overheen springen of onderdoor gaan, terwijl dit voor mensen een stuk makkelijker zou moeten zijn. Voor mijn idee is een hek een transparante afbakening, wat heel minimaal aangeeft dat er een scheidingslijn is. Wat voor het gevoel nog bewegingsvrijheid geeft en de mogelijkheid geeft om nog te communiceren. 
+</p>
+
+
+
+<span class="next"> <a href="#runningid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
 
-<div class="casus1">
-
-<h1>EEN CASUS ONDERZOEK</h1>
 
 
-  <h2>BOTSWANA ENen ZIMBABWE</h2>
-<p>
 
-Tussen 2001-2003 brak er in het noordoosten van Botswana een epidemie van mond- en klauwzeer (MKZ) uit waarbij de vee-industrie zwaar getroffen werd. Zimbabwe werd beschuldigd van het verspreiden van deze besmettelijke ziekte die zorgde voor de nodige spanning tussen de nationale gemeenschappen.
-
-In 2003 heeft Botswana plannen aangekondigd om een elektrische afrastering te bouwen. Officieel gezien om de verspreiding van MKZ tegen te gaan. Ook werden de Zimbabwanen gecontroleerd en bagage gedesinfecteerd van sporen van MKZ wat verdere verspreiding tegen zou gaan. Maar door de spanningen hebben veel burgers ervoor gekozen te emigreren naar Botswana voordat de grens zou worden gebouwd. In Botswana draaide de economie beter en ook de politiek kende daar meer stabiliteit. Duizenden Zimbabwanen verlieten massaal het land.
-De Zimbabwaanse hoge commissaris van Gaborone, Phelekeza Mphoko, was het uiteraard niet eens met de grensmuur waarvan alleen Botswana een voorstander was. Hij zei hierover: “Botswana probeert een Gazastrook te creëren”.
-
-Het hek dat gebouwd werd zou in eerst instantie 4 meter hoog worden. Uiteindelijk is dit 2,4 meter hoog geworden met een 220-voltage. Ook zou het hek oorspronkelijk 500 kilometer lang worden, alleen door moeilijk terrein is de levering van materialen moeizaam en is het hek nog niet volledig afgebouwd. In 2006 besloot de overheid dat een elektrische afrastering niet werkte aangezien de installatie op diverse plekken beschadigd was door zowel dieren als mensen. Dit omdat de voltage veel te hoog stond. 
-
-Uiteindelijk heeft dit hek meerdere dynamische betekenissen/functies die afhankelijk zijn van het perspectief waaruit wordt gekeken. Voor dieren is dit hek overduidelijk een obstakel en kunnen ze er moeilijk overheen springen of onderdoor gaan, terwijl dit voor mensen een stuk makkelijker zou moeten zijn. Voor mijn idee is een hek een transparante afbakening, wat heel minimaal aangeeft dat er een scheidingslijn is. Wat voor het gevoel nog bewegingsvrijheid geeft en de mogelijkheid geeft om nog te communiceren. 
- </p>
+<div id="runningid">
 </div>
 
-<div class="casus2">
-  <h2>THE RUNNING FENCE</h2>
+
+<div id="running">
+<h1>The Running Fence</h1>
+
+<p> 
+Christo en Jeanne Claude, het duo bekend geworden met hun ‘inpak-kunsten’ van gebouwen, maakte in 1976 een kunstproject, genaamd Running Fence. Een hek van 200.000 vierkante meter zwaar geweven witte nylon stof van 39,4 kilometer lang en 5,5 meter hoog die zich uitstrekte vanuit het oosten naar het westen, ten noorden van de stad San Francisco. Door de wind bewegen de grote vlaktes stof, wat zorgt voor een fascinerend effect, namelijk de beweeglijkheid van een afgebakend ‘hek’. Een hek wat normaliter niet zo een beweeglijke eigenschap hoort te hebben.  
+De Running Fence doorkruiste veertien wegen, waarvan één de belangrijkste is: route 101, die van het noorden naar het zuiden van San Diego loopt. Daarnaast doorkruist het ook nog eens het landgoed van negenenvijftig boeren. Dit alles bij elkaar maakte het een ingewikkeld project waar we later nog op in gaan. Maar eerst de gedachten achter dit creatieve en ingewikkelde proces. Het gaat volgens Christo en Jeanne-Claude niet alleen over het object zelf, maar ook om de partijen die mee spelen tijdens het creatieve proces. Er zijn veel factoren betrokken bij het proces: landbezitters, mensen die de stof weven, die haringen in de grond bevestigen en die kabels installeren. Dit was ook het doel van dit project om de mensen samen te brengen in plaats van uit elkaar te drijven. De Running Fence maakt doorgang mogelijk via de wegen zodat toeschouwers van beide kanten konden zien wat voor een kunstmatige structuren het doorkruiste. Bijvoorbeeld boerderijen, schuren en andere gebouwen. Het lijkt hierdoor alsof het hek “rent” door de heuvels en af en toe focus legt op de omliggende gebouwen. Daar heeft het dan ook zijn naam aan te danken.</p>
+
 <p>
- Christo en Jeanne Claude, het duo bekend geworden met hun ‘inpak-kunsten’ van gebouwen, maakte in 1976 een kunstproject, genaamd Running Fence. Een hek van 200.000 vierkante meter zwaar geweven witte nylon stof van 39,4 kilometer lang en 5,5 meter hoog die zich uitstrekte vanuit het oosten naar het westen, ten noorden van de stad San Francisco. Door de wind bewegen de grote vlaktes stof, wat zorgt voor een fascinerend effect, namelijk de beweeglijkheid van een afgebakend ‘hek’. Een hek wat normaliter niet zo een beweeglijke eigenschap hoort te hebben.  
-De Running Fence doorkruiste veertien wegen, waarvan één de belangrijkste is: route 101, die van het noorden naar het zuiden van San Diego loopt. Daarnaast doorkruist het ook nog eens het landgoed van negenenvijftig boeren. Dit alles bij elkaar maakte het een ingewikkeld project waar we later nog op in gaan. Maar eerst de gedachten achter dit creatieve en ingewikkelde proces. Het gaat volgens Christo en Jeanne-Claude niet alleen over het object zelf, maar ook om de partijen die mee spelen tijdens het creatieve proces. Er zijn veel factoren betrokken bij het proces: landbezitters, mensen die de stof weven, die haringen in de grond bevestigen en die kabels installeren. Dit was ook het doel van dit project om de mensen samen te brengen in plaats van uit elkaar te drijven. De Running Fence maakt doorgang mogelijk via de wegen zodat toeschouwers van beide kanten konden zien wat voor een kunstmatige structuren het doorkruiste. Bijvoorbeeld boerderijen, schuren en andere gebouwen. Het lijkt hierdoor alsof het hek “rent” door de heuvels en af en toe focus legt op de omliggende gebouwen. Daar heeft het dan ook zijn naam aan te danken.
+Het heeft tweeënveertig maanden geduurd totdat het project gerealiseerd kon worden. Christo en Jeanne-Claude moesten ten eerste goedkeuring krijgen van de boeren, daarnaast moesten ze achttien openbare hoorzittingen doorstaan en ook nog eens drie sessies op de hogere rechtbank van Californië. Verder moest er een rapport opgesteld worden waarbij er nagegaan werd of het project schadelijk kon zijn voor omringend milieu vanwege het tijdelijk interveniëren van de natuurlijke orde.</p> 
 
-Het heeft tweeënveertig maanden geduurd totdat het project gerealiseerd kon worden. Christo en Jeanne-Claude moesten ten eerste goedkeuring krijgen van de boeren, daarnaast moesten ze achttien openbare hoorzittingen doorstaan en ook nog eens drie sessies op de hogere rechtbank van Californië. Verder moest er een rapport opgesteld worden waarbij er nagegaan werd of het project schadelijk kon zijn voor omringend milieu vanwege het tijdelijk interveniëren van de natuurlijke orde. 
+<p>Tot slot is dit project gefinancierd door Christo en Jeanne-Claude zelf, door het verkopen van alle voorbereidende tekeningen, collages en maquettes van de Running Fence. Maar heeft uiteindelijk maar twee weken volledig gestaan en is daarna verwijderd, waarbij alle gebruikte materialen aan de boeren en bewoners van de doorkruiste stukken land zijn gegeven. Er zijn ook geen zichtbare bewijzen te zien waaruit blijkt dat er ooit zo een lange grens heeft gestaan. De grens is volledig verwijderd na de afronding van het project op 10 september 1976.</p>  
 
-Tot slot is dit project gefinancierd door Christo en Jeanne-Claude zelf, door het verkopen van alle voorbereidende tekeningen, collages en maquettes van de Running Fence. Maar heeft uiteindelijk maar twee weken volledig gestaan en is daarna verwijderd, waarbij alle gebruikte materialen aan de boeren en bewoners van de doorkruiste stukken land zijn gegeven. Er zijn ook geen zichtbare bewijzen te zien waaruit blijkt dat er ooit zo een lange grens heeft gestaan. De grens is volledig verwijderd na de afronding van het project op 10 september 1976.  
-
+<p>
 Deze grens is beschouw ik als natuurlijk door gebruik van het materiaal, het beweegt mee met de luchtstromen die over het land heen waaien wat een invloed heeft op de ruimtelijkheid. Het interessante aan dit project is dat beide kanten hieraan hebben meegewerkt waardoor er geen machtspraktijken zijn ontstaan. Wat deze grens veel kracht geeft en nieuwsgierigheid opwekt naar de binnenruimte en buitenruimte wat toegang geeft tot bevrijding.
- </p>
-</div>
-
-
-<div class="casus3">
-  <h2>DE GRENS VANUIT DE RUIMTE</h2>
-<p> 
-
-In 1947 werd Brits-Indië onafhankelijk van de voormalige koloniale heerser Groot-Brittannië. Daaropvolgend werd het door moslims gedomineerde noordwesten al vrij snel afgescheiden van het oostelijke gedeelte, wat resulteerde in het ontstaan van twee verschillende natiestaten, namelijk Pakistan en India. Sinds de opsplitsing van land is er een constante strijd over de zeggenschap over de rijke en vruchtbare grensregio: Kasjmir. Vervolgens voerden ze onder het toeziend oog van de Verenigde Naties een staak-het-vuren in langs een lijn die door een overeenkomst (Verdrag van Shimla) in 1972 die Line of Control’ word genoemd. Deze lijn verdeelt het gebied op een zodanige manier dat India twee-derde en Pakistan een-derde in het noorden in handen krijgt.
-
-De Line of Control is 750 kilometer lang. India ziet deze lijn als een officiële grens en is in 2003 begonnen met de bouw van een gemiddeld 3 meter hoog hekwerk van dubbel prikkeldraad dat onder stroom staat. Daarnaast wordt de grens ook fel verlicht met schijnwerpers in een poging om mensenhandel en infiltratie van terroristen te voorkomen. 
-
-“I have always said, ‘you can’t see any borders from space’. Apparently I was wrong”, aldus Ronald Garan, een astronaut voor NASA. Hij was aan boord van The International Space Station op 17 augustus 2011 en maakte een foto vanuit de ruimte. Hierop was een duidelijke zichtbare politieke grens te zien door de felverlichte lijn. Hij beschrijft hoe de mens de agency heeft om de wereld te veranderen, zelfs vanuit de ruimte zichtbaar. Zo zei hij: “When viewed from space, earth almost always looks beautiful and peaceful. However, this picture is an example of human-made changes to the landscape in response to a threat, clearly visible from space.” 
-
-“Geleidelijk zullen de bestaande schijnwerpers (op de India-Pakistan grens) worden vervangen door LED-schijnwerpers in de komende jaren” zei Minister Narendra van India op 3 maart 2015. De schijnwerpers leveren een enorme elektriciteitsrekening, logisch als je zoveel kilometers aan grens verlicht. Daarnaast is alles beter te zien door de LED-schijnwerpers.  
-
-Dit is een duidelijk klassiek voorbeeld van een grens als uitgangspunt. Echter schuilt er een symboliek achter aangezien het vanuit de ruimte te zien is. Je zou namelijk denken, als de wereld van een afstand bekeken wordt, dat het één geheel is afgezien van alle kennis die we nu hebben over de verdeeldheid van gebieden. Maar deze grens is zo verlicht dat er zelfs een verdeeldheid vanuit het heelal te zien is. Daardoor straalt het ook een afwerende universele machtspositie uit. Grafisch gezien is dit een nieuwe manier van grensafbakening. We zien namelijk dat naast een hekwerk, extreem veel licht wordt gebruikt 
-
 </p>
-</div>
-
-<div class="casus4">
-  <h2>DE 38E BREEDTEGRAAD</h2>
-<p>
-
-De gedemilitariseerde zone is de zone tussen Noord- en Zuid-Korea die na de Koreaanse Oorlog, die eindigde in 1953, werd vastgesteld. Deze grens bevindt zich op de 38e breedtegraad, vandaar de titel van deze grens. Het is de breedste grens ter wereld, namelijk wel vier kilometer. Deze afstand werkt als een bufferzone. Hier lopen geen militairen doorheen waardoor de spanningen tussen twee landen niet direct evident te zien in de grens. Echter buiten de gedemilitariseerde zone zijn beide partijen zwaarbewapend.
-
-Naast dat de grens enorm breed is, is de lengte nog veel langer, namelijk tweehonderdveertig kilometer lang. Tussen dit brede en lange gebied liggen naar schatting ongeveer twee miljoen landmijnen, staan er elektrische hekken, zijn er vallen gemaakt voor tanks en staan er dus aan beide kanten achter de grens legers ‘klaar’ om uit te rukken als het ooit nodig mocht zijn.
-Het is eigenlijk een niemandsland. Er is niets en niemand te bekennen. De ruimte is geneutraliseerd, en maakt het heel vredig ondanks dat het een gebied is tussen twee gevechtslinies, waar er spanning heerst. Deze spanning is duidelijk aanwezig aan beide kanten van de bufferzone.
-
-Ook staan de grootste vlaggenmasten ter wereld in de DMZ (afkorting ‘Demilitarized Zone’). In 1980 bouwde de Zuid-Koreaanse overheid een 98,4 meter hoge vlaggenmast. Het antwoord van de Noord-Koreaanse overheid was het neerzetten van een nog hogere mast die met zijn 160 meter lang de hoogste is ter wereld. Verder zouden beide landen ook luidsprekers bij de grens neerzetten die propagandakreten uitzenden. 
-
-Wat wel een bijzonder fenomeen is, is de hulp die vroegere Noord-Koreanen die nu in Zuid-Korea wonen proberen te geven aan het meeste geïsoleerde land ter wereld. Aangezien de burgers in dat land, volgens bepaalde bronnen, extreem communistisch behandeld worden. Hierbij kan je denken aan het verplichten van legeractiviteiten voor lange perioden, het niet mogen bezitten van materiële goederen met waarde en het opleggen van bepaalde levensstandaarden. Via de Human Rights Foundation laten Noord-Koreaanse dissidenten, die nu dus in Zuid-Korea wonen, waterstofballonnen op in de buurt van de grens, met geld en propaganda eraan gebonden.
-Door middel van een simpel concept, namelijk waterstofballonnen, kunnen grenzen, hoe enorm breed, lang, hoog, gevaarlijk ze ook zijn, alsnog overbrugd worden. Dan denkt men nog een virtuele overbrugging te kunnen uitvoeren, maar dat is niet het geval bij Noord-Korea, die volledig is afgesloten van de wereld, ook virtueel. 
-
-Daarbij wil ik nog even ingaan op de film ‘The Interview’, die gaat over de Koreaanse dictator Kim Jung-Un die in slow-motion wordt opgeblazen door Amerikaanse journalisten. Pyongyang dreigde Zuid-Korea uit te schakelen als de exemplaren van de Hollywood-film de grens zouden oversteken. Maar dat heeft Zuid-Korea zich er niet van weerhouden om het wel te doen. USB-sticks en dvd’s zijn in overvloed verspreid. De ballonnen zijn het enige communicatie middel om de mensen uit Noord-Korea bewust te maken van de buitenwereld en ze te voorzien van informatie, via deze manier zijn dan ook met alle waarschijnlijkheid de beelden verspreid. 
- </p>
-</div>
 
 
 
-<div class="casus5">
-  <h2>DE 99 MUREN VAN BELFAST</h2>
-<p>
-
-In 1969 ontstonden er gewelddadige rellen tussen de nationalistische katholieken en unionistische protestanten in Belfast, Ierland. Deze gebeurtenis wordt ook wel The Troubles genoemd. Nog steeds is er een grote spanning tussen deze groepen, te zien aan het dodenaantal sinds het begin, wat nu op een aantal van 3500 staat. Om deze groepen uit elkaar te houden werden er muren tussen de protestanten en katholieken wijken ingezet als tijdelijke oplossing. Maar deze muren staan er nog steeds en het zijn er in de loop der jaren alleen maar meer geworden. Deze worden gebouwd om vrede te houden tussen de twee groepen. De bijnaam van deze muren is dan ook gepast: Peace Walls.
-
-Tot nu toe zijn er 99 vredesbarrières met verschillende constructen van totaal eenentwintig kilometer lang die verspreid staan over de verschillende wijken, parken en wegen. Hieronder staat kort beschreven uit welke materialen de grenzen zijn gemaakt:
-<br>
-35 barrières zijn gemaakt van verschillende stijlen van metalen hekwerk.
-23 barrières bestaan ​​uit een mengsel van een vaste wand met metalen hekwerk boven.
-14 mengsels van omheiningen met planten die als een buffer fungeren.
-12 locaties waar de wegen zijn afgesloten voor auto’s maar niet voor voetgangers.
-8 plaatsen waar alleen een wand staat.
-7 plaatsen waar wegen poorten hebben die soms worden afgesloten.
-
-Deze barrières houden de gemeenschappen goed gescheiden. Zo is ook te zien in de serie De Muur van Menno Bentveld. Hij laat beelden zien waarin de gids die hem begeleidt niet een barrière oversteekt, maar vervangen wordt door een andere gids aan de andere kant van de muur. ‘Mensen daar dragen allemaal dezelfde voetbalshirts, maar durven niet eens bij elkaar in de wijk te komen,’ aldus Menno Bentveld.
-
-Er zijn daar ijzeren poorten in de muren, die om negen uur in de ochtend open gaan. Dan komt een man langs met sleutels en om drie uur ’s middags gaan ze weer dicht, want anders slaan ze elkaar de hersens, zo zegt Menno Bentveld. Tenminste, daar zijn ze dan bang voor.
-
-Nu nog steeds ontstaan er rellen tussen de protestanten en katholieken. Vooral 12 juli is een gespannen dag als de protestanten de Oranjemars gaan lopen. Ze herdenken de Slag aan de Boyne, waar in 1690 de Nederlandse en vooral protestante koning-stadhouder Willem III zijn katholieke schoonvader James II versloeg. Deze mars gaat over de Crumlin Road die een scheidslijn vormt tussen de twee gemeenschappen, waar vaak rellen ontstaan. Daarom heeft in 2015 de landelijke paradecommissie besloten niet meer deze weg te doorkuizen. 
-“Deze afscheidingen moeten in 2023 uit het straatbeeld zijn verdwenen”, zei de protestantse premier Peter Robinson en de katholieke vicepremier Martin McGuinness. Maar veel bewoners zijn het daar niet mee eens en voelen zich juist onveilig als de muren worden weggehaald.
-
-Het lijkt wel alsof de barrières er niet meer staan voor dezelfde reden dat ze geplaatst zijn. De vraag is of het nog steeds een gevecht is tussen de katholieken en de protestanten, of dat het nu verplaatst is naar de bewoners van de ene kant van de muur met de andere kant. Dus dat de grens zelf het uitgangspunt is van verdeeldheid, in plaats van de religieuze overtuigingen van de bewoners. 
- </p>
-</div>
-
-<div class="casus6">
-  <h2>DE MAROKKAANSE BERM</h2>
-<p>
-
-Tot 1975 was de Westelijke Sahara een kolonie van de Spanjaarden. Toen die vertrokken kreeg het gebied een onduidelijke status. De Polisario (afkorting; Frente Popular para la Liberación de Saguia el-Hamra y Rio de Oro) is een onafhankelijkheidsbeweging die werd opgericht in 1975 nadat de Spanjaarden vertrokken, die daar een eigen staat wilde creëren voor de Sahrawi. Maar zij waren niet de enige geïnteresseerden in dit gebied.
-
-Hoewel de oorspronkelijke bewoners van de Westelijke Sahara de Sahrawi bevolking was Marokko ook bijzonder geïnteresseerd in dit gebied. Zij stonden met hun leger van 20.000 soldaten tegenover 100.000 soldaten en vrijwilligers van het Marokkaanse leger in de Westelijke Sahara, om het gewilde gebied te bemachtigen.
-
-De Polisario had in een aantal jaar een behoorlijk deel van de Westelijke Sahara veroverd. Al snel bouwde Koning Hassan || van Marokko een muur, ook wel de ‘Marokkaanse berm’ genoemd, van 2735 km lang om de strijd te beslechten voor de guerrillabeweging. Alles ten westen van de muur hoort vanaf dat moment bij Marokko wat ongeveer twee-derde van het totale gebied van de Westelijke Sahara is.
-
-De muur werd gebouwd in zes etappes van verschillende lengtes en begon in 1980 en duurde tot 1987. De muur/berm bestaat niet uit beton, zoals men gewend is van een grens, maar uit zand en rotsen van ongeveer zes meter hoog. Daartussen bevonden zich militaire velden met bunkers, mijnenvelden en om de vijf kilometer wordt4 de berm onderbroken door observatieposten. De muur heeft ook een elektrisch systeem en het gebied wordt constant in de gaten gehouden door satellieten. De Marokkaanse berm wordt ook wel gezien als waarschuwingssysteem en als de grootste functionele militaire barrière in de wereld, volgens internationale analisten.
-
-Voor de Parijs-Dakar rally van 2001 werd speciaal een smalle strook landmijnen verwijderd door Marokko. De Polisario vond dat de rally over het grondgebied een schending van de wapenstilstand zou vormen en wilde uit zelfverdediging militaire activiteiten hervatten op de dag van rally op het grondgebied. Maar sindsdien zijn er positieve stappen richting herstel. 
-
-Opvallend is dat deze enorm lange grens, 2735 kilometer om precies te zijn, om de vijf kilometer een observatiepost heeft. In totaal zijn er dus bijna 550 observatieposten wat allemaal in een kort termijn is gerealiseerd. Wat deze grens anders maakt is dat het geen muur is zoals we die kennen, maar juist vanuit een natuurlijk product is gemaakt. Hij bestaat namelijk uit zand, ongeveer het enige wat er daar in de wijde omgeving te vinden is. De kenmerken van zand hebben in dit geval voordelen; het is namelijk een bewegelijk materiaal dat verschillende vormen kan aannemen. In het geval van het Marokkaanse leger hebben ze er bermen mee gemaakt, maar konden ze ook gemakkelijk veldmijnen er mee verbergen. Vandaar dat deze muur zo snel kon worden gerealiseerd. 
- </p>
-</div>
-
-<div class="casus7">
-  <h2>THE GREEN LINE</h2>
-<p> 
-
-“Sometimes doing something poetic can become political,  and sometimes doing something political can become poetic."
-Francis Alÿs
-
-Francis Alÿs is een Belgische kunstenaar die zowel performance, video’s, tekeningen, schilderijen en beeldhouwwerken maakt. In zijn werk onderzoekt hij vaak de spanning in de politiek en uit dat in individuele acties.
-
-In 2004 is Francis Alÿs naar Jeruzalem gegaan om daar een (poëtische) grenslijn te maken (die hij eerder had gemaakt in Sao Paolo, 1995) tussen Palestina en Israël. Dit naar aanleiding van de tijdelijke staak-het-vuren grens die in eerst instantie gecreëerd was door de Verenigde Naties na de Arabisch-Israëlische oorlog van 1947-1948. 
-
-Hij is 24 kilometer gaan lopen met een lekkend blikje groene verf door de straten, parken en over het rotsachtige terrein van Jeruzalem. In totaal werd er 58 liter groene verf gebruikt om een lijn te trekken. Er is een film gemaakt van de wandeling door Julien Devaux, Philippe Bellaiche en Rachel Leah Jones, daarin maakt hij simpelweg een wandeling zonder politieke statements te maken, zonder woorden te spreken.
-
-Het is van weinig belang hoe de verf terecht komt op de grond, zijn arm zwaait heen en weer en de verf danst door de lucht en komt zowel voor als achter hem te rusten op de grond. Wat achterblijft is een lijn waarbij het lijkt alsof die per ongeluk daar terecht is gekomen. Ook verdwijnt de lijn snel door de stof die op waait door het verkeer en mensen die erover heen lopen.
-
-De afgelopen jaren zijn er veel muren geplaatst in het gebied en meer militaire bewaking. De muren worden op een zodanige manier gebouwd dat ze gemakkelijk verplaatsbaar zijn. Alsof er wordt verwacht dat de grens nog verder gaat verschuiven en de muur zich daar aan zou moeten kunnen aanpassen. 
-
-The Green Line zet de toeschouwer aan om te reflecteren over de gelaagdheid van het concept ‘grens’. Alÿs laat hiermee zien dat het belachelijk is dat één persoon, of een kleine groep personen een linie kan bepalen. Zo ook is het volgens hem bespottelijk dat de maatschappij zich zo gemakkelijk aan een grensmuur hecht. Terwijl de grens van oorsprong, wanneer hij werd bepaald door de Verenigde Naties, een denkbeeldig ontastbaar iets was.
+<span class="next"> <a href="#ruimteid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
 
-<div class="casus8">
-  <h2>NO TOUCHING ZONE</h2>
-<p> 
 
-De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentwintig verdragen, conventies, protocollen en besluiten. Hierdoor werd in 1925 De Internationale Grens Commissie opgericht door zowel Canadezen als Amerikanen. Beiden worden vertegenwoordigd in deze commissie om het allemaal zo eerlijk mogelijk te laten verlopen. Deze commissie werd verantwoordelijk gesteld voor het in kaart brengen en het onderhoud van de grens tussen de landen. 
 
-De grens loopt langs de 49ste breedtegraad en is in totaal 8800 kilometer lang. Deze lijkt theoretisch gezien helemaal recht maar eigenlijk is dat helemaal niet het geval. Het zijn negenhonderd zigzag lijnen die met elkaar in verbintenis staan met 8000 referentiepunten (grenspaaltjes). De grens tussen Canada en de Verenigde Staten bestaat zowel over land als over water. Maar ook in het water liggen grensboeien om duidelijk te maken tot welk land de wateren behoren waarop men vaart.
 
-Om deze grens zo duidelijk mogelijk aan te duiden is er een No Touching Zone van zes meter. Deze loopt over de volledige lengte van de grens. De Internationale Grens Commissie zorgt ervoor dat alle overhangende bomen, struiken en takken worden verwijderd op de gehele grens tussen de twee landen, zodat obstakels niet het zicht blokkeren op de zes meter breedte. 
 
-Deze grens is esthetisch gezien erg sterk ook omdat deze nog steeds wordt onderhouden. Als je op deze No Touching Zone staat heb je een duidelijk zicht over de grens. In plaats van dat het zicht onderbroken wordt door een muur. Ook is dit een hele vriendelijke maar heldere vorm van een grens, wat niet tastbaar is.
 
-“Frontiers are indeed the razor‘s edge on which hang suspended the modern issues of war or peace, of life or death to nations.” Lord Curzon (1907)
- </p>
+<div id="ruimteid">
 </div>
 
-<div class="casus9">
-  <h2>HET CONFLICT TUSSEN<br> RUSLAND EN GEORGIË</h2>
-<p>
 
-In 1991 werd Georgië een eigen staat, daarvoor was het een republiek van de Sovjet-Unie (nu Rusland). Zuid-Ossetië, een van oorsprong Russisch gebied, lag vanaf toen in Georgië. Alhoewel de bevolking in dat gebied er niet helemaal mee eens was. Zij voelden zich meer Rus dan Georgiër. Bovendien hadden al deze mensen een Russisch passoort waar ze ook tevreden mee waren aangezien in vergelijking de Russische economie vele malen bloeiender was dan de Georgische. 
+<div id="ruimte">
+<h1>De grens vanuit de ruimte</h1>
 
-De Zuid-Ossenten zetten dan ook niet kort na de onafhankelijkheid een burgeroorlog op gang met als achterliggende gedachte autonomie. Na een kort en hevig conflict tussen de troepen van Zuid-Ossentië en het land Georgië werd er na een jaar een staakt-het-vuren uitgeroepen. Eigenlijk sinds 1992 is er een ‘negeerperiode’ aan de gang. Beide partijen erkennen elkaar niet, en laten elkaar met rust zolang er geen conflicten ontstaan. 
-
-Echter, in 2008, vallen de Georgiërs de hoofdstad Tsinvali van de ‘Republiek van Zuid-Ossentië’ (hoe ze zichzelf noemden) binnen. Rusland reageerde snel op deze inval, en vonden ook dat ze daar recht op hadden aangezien de mensen die woonden in de Republiek een Russisch paspoort hadden. 
-
-De ‘Vijfdaagse Oorlog’ die toen startte begon op 7 augustus 2008. Officieel gestart door de Georgische president Saakasjvili. Maar uiteindelijk had Rusland al vrij snel controle over het gebied gekregen, waarna ze verder de grens overtrokken, Georgië in. Deze korte en ondoordachte (van de Georgische kant dan) oorlog claimde vierhonderd mensenlevens en ongeveer 127.000 mensen zijn gevlucht. Op 15 augustus werd een vredesakkoord ondertekend en iets later verklaarde Rusland Zuid-Ossetië als onafhankelijke Republiek.
-
-Al snel begon Rusland met het plaatsten van hekwerken en blokkades op de grens tussen Zuid-Ossetië en Georgië om de veiligheid van de nieuwe onafhankelijke Republiek te waarborgen. Veel inwoners werden op deze manier afgescheiden van familie, landbouwgronden en buren. Dit ontnam de bewegingsvrijheid van de lokale bevolking. Daarnaast heeft Rusland niet alle hekwerken op de originele grens geplaatst maar sommige ook elf kilometer verder op binnen het Georgisch grondgebied. 
-De afscheiding die Rusland bouwt wordt niet internationaal niet erkend. EU woordvoerster voor Internationale Aangelegenheden Catherine Ashton benadrukt dat de afscheiding ingaat tegen de territoriale integriteit van Georgië en de stabiliteit en veiligheid van de grensregio in gevaar brengt.
-
-Tegenwoordig is Rusland steeds verder de grens aan het kruipen ten nadele van de Georgië. Door de grens steeds verder te verleggen komt er ongeveer anderhalve kilometer van de Bakoe-Soepsa-oliepijplijn in handen van de Russen. De oliepijplijn van BP vervoert tot 10.000 vaten per dag van de hoofdstad van Azerbeidzjan naar de Zwarte-Zeehaven van het Georgische Soepsa. De pijplijn is belangrijk voor de olietoevoer naar Europa. Maar nu komt deze pijplijn, en daarmee de toevoer van olie in gevaar doordat Rusland nu een deel van het gebied bezet. 
-
-In sommige gevallen worden dorpen voor de helft afgesneden door hekken. Bewoners zijn zelfs naar bed gegaan in Georgië en nadat de Russen s’ nachts een hek installeerde, werden ze wakker in het bezette Zuid-Ossetië. 
-
-Uit het voorgaande komt een nieuwe manier van afbakening naar voren. Grenzen zijn namelijk in dit geval niet iets statisch, iets wat vast staat, en groepen mensen uit elkaar houdt. In dit geval hebben de grenzen een dubbele functie, namelijk het uitbreiden van het grondgebied met als bescherming de grens zelf én het uit elkaar houden van vijanden. 
- </p>
-</div>
-
-<div class="casus10">
-  <h2>DE BRAZILIAANSE FAVELA’S</h2>
 <p> 
+In 1947 werd Brits-Indië onafhankelijk van de voormalige koloniale heerser Groot-Brittannië. Daaropvolgend werd het door moslims gedomineerde noordwesten al vrij snel afgescheiden van het oostelijke gedeelte, wat resulteerde in het ontstaan van twee verschillende natiestaten, namelijk Pakistan en India. Sinds de opsplitsing van land is er een constante strijd over de zeggenschap over de rijke en vruchtbare grensregio: Kasjmir. Vervolgens voerden ze onder het toeziend oog van de Verenigde Naties een staak-het-vuren in langs een lijn die door een overeenkomst (Verdrag van Shimla) in 1972 die Line of Control’ word genoemd. Deze lijn verdeelt het gebied op een zodanige manier dat India twee-derde en Pakistan een-derde in het noorden in handen krijgt.</p>
 
-In Brazilië zijn er ongeveer 750 favela’s ook wel krottenwijk of sloppenwijk. De bewoners hebben vaak een laag inkomen en leven beneden ‘normale’ levensstandaarden. Drugs en bendeoorlogen spelen een belangrijke rol in het dagelijkse leven van vele bewoners. Het wordt dan ook sterk afgeraden om als toerist of als rijk uitziend persoon deze gebieden te betreden.
+<p>De Line of Control is 750 kilometer lang. India ziet deze lijn als een officiële grens en is in 2003 begonnen met de bouw van een gemiddeld 3 meter hoog hekwerk van dubbel prikkeldraad dat onder stroom staat. Daarnaast wordt de grens ook fel verlicht met schijnwerpers in een poging om mensenhandel en infiltratie van terroristen te voorkomen.</p> 
 
-In 2009 heeft de overheid van Brazilië aangekondigd muren te bouwen rond elf favela’s. Veel favela’s staan tegen het regenwoud aan en dreigen te verdwijnen door illegale uitbreiding van de bewoners. Dat wordt tenminste als rede opgegeven door de overheid. Maar deze ingreep kan ook vanuit een ander perspectief benaderd worden. Zo beweren mensenrechtenorganisaties dat de muren gebouwd zijn om de inwoners van de favela’s gescheiden te houden van de rest van de samenleving in Rio de Janeiro.
+<p>“I have always said, ‘you can’t see any borders from space’. Apparently I was wrong”, aldus Ronald Garan, een astronaut voor NASA. Hij was aan boord van The International Space Station op 17 augustus 2011 en maakte een foto vanuit de ruimte. Hierop was een duidelijke zichtbare politieke grens te zien door de felverlichte lijn. Hij beschrijft hoe de mens de agency heeft om de wereld te veranderen, zelfs vanuit de ruimte zichtbaar. Zo zei hij: “When viewed from space, earth almost always looks beautiful and peaceful. However, this picture is an example of human-made changes to the landscape in response to a threat, clearly visible from space.” </p>
 
-De overheid begon in maart 2009 met de favela Dona Marta (Santa Marta) onder het beroemde standbeeld van Christus de Verlosser in Rio. Binnen 120 dagen werd er een muur gebouwd van driehonderd meter lang en vier meter hoog. De muur was gemaakt van beton en op een aantal plekken doorgangen naar andere aangrenzende buurten. De favela’s Rosinha, Vidigal, Parque da Cicade volgde snel erachteraan.
+<p>“Geleidelijk zullen de bestaande schijnwerpers (op de India-Pakistan grens) worden vervangen door LED-schijnwerpers in de komende jaren” zei Minister Narendra van India op 3 maart 2015. De schijnwerpers leveren een enorme elektriciteitsrekening, logisch als je zoveel kilometers aan grens verlicht. Daarnaast is alles beter te zien door de LED-schijnwerpers.</p>  
 
-Niet alleen de arme wijken worden buitengesloten van de samenleving. Aan de rand van Sao Paulo is in 1974 het concept voor Alphaville ontstaan. Een landgoed wat omgebouwd werd tot een gemeenschap achter gesloten muren om op deze manier de criminaliteit tegen te gaan. Dit fenomeen is bekend in de sociale geografie als een gated community, iets wat tegenwoordig overal de hele wereld te zien is. Maar dan vooral in de gebieden waar er grote verschillen zijn in economische ongelijkheid. Alphaville, de naam zegt het al, heeft nu meer dan duizend gewapende mannen op de muren staan. Er is ook een checkpoint met beperkte toegang tot de stad. Alleen de mensen met kapitaal en goede afkomst mogen in deze stad wonen.
+<p>Dit is een duidelijk klassiek voorbeeld van een grens als uitgangspunt. Echter schuilt er een symboliek achter aangezien het vanuit de ruimte te zien is. Je zou namelijk denken, als de wereld van een afstand bekeken wordt, dat het één geheel is afgezien van alle kennis die we nu hebben over de verdeeldheid van gebieden. Maar deze grens is zo verlicht dat er zelfs een verdeeldheid vanuit het heelal te zien is. Daardoor straalt het ook een afwerende universele machtspositie uit. Grafisch gezien is dit een nieuwe manier van grensafbakening. We zien namelijk dat naast een hekwerk, extreem veel licht wordt gebruikt 
+gang geeft tot bevrijding.
+</p>
 
-Ook dit is weer een ander concept van een muur, namelijk mensen uit verschillende economische klasse uit elkaar halen, uitgaande van het perspectief van de mensenrechtenorganisatie. Het behoudt van het tropisch regenwoud is een beetje een loos argument, als men kijkt naar al het kappen in andere regio’s waar bijna niets aan wordt gedaan. 
 
-Er is wetenschappelijk bewijs dat inderdaad onder de ‘lagere klasse’ meer criminaliteit voorkomt, hoewel, als je een andere vormen van criminaliteit die bekend zijn, bijvoorbeeld uitbuiting, vaak bedreven door rijke kapitaalzoekers, niet meetelt. Maar dan is de vraag: hoe gaat deze afscheiding uitwerken op de mensen? Zal crimineel gedrag niet veel hoger worden als sommige op deze manier worden buitengesloten? Met andere woorden: wat zijn de psychologische gevolgen als de mensen in de favela’s duidelijk bestempeld worden als minderwaardig? 
 
+
+
+<span class="next"> <a href="#breedtid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
-<div class="casus11">
-  <h2>DE STRAAT VAN GIBRALTAR</h2>
-<p>
 
-Een van de meest bekende zeestraat of zee-engte in Europa is de Straat van Gibraltar die tussen Marokko (Afrika) en Spanje (Europa) loopt. De straat is het zwaarste bewaakte punt in Europa. 
-De breedte verschilt tussen de 14 kilometer op het smalste stuk tot 44 km op het breedste stuk. In totaal heeft de zee-engte een lengte van 60 kilometer. In deze straat komen tevens de Middellandse Zee en de Atlantische Oceaan samen.
 
-“Of course I’m scared, but I don’t have any choice but this one. It’s like everything is closed in your face, so there’s nothing else but the sea. There’s nothing but the sea as a way to get out.” Houthayfa (21), Syria 
-
-Op dit stuk in Europa komen de meeste migranten binnen, maar ook drugsmokkel is hier aan de orde. De Spaanse regering heeft drie torens gebouwd met hightech apparatuur om illegale immigranten tegen te houden. Langs de zeestraat zijn honderden radars, sensoren en dag-nacht zicht camera’s aangebracht. Het controlecentrum in Algeciras bevat een enorm scherm dat alle schepen in de Straat van Gibraltar onder toezicht houdt. 
-
-Frontex is het samenwerkingsverband voor de bewaking van de Europese buitengrenzen deze patrouille vaart ook in de Straat van Gibraltar. Het doel is niet om ze tegen te houden, maar om ervoor te zorgen dat ze uit de onveilige situatie komen. Veel vluchtelingen worden onderschept in kleine opblaasboten die overvol zitten en vaak omslaan door de hevige golven. 
-
-Tussen 1990 en 2013 zijn er ongeveer 3188 mensen omgekomen in de zuidelijke buitengrenzen van Europa. De meeste doodsoorzaken zijn verdrinking en onderkoeling. Maar ook uitdroging want velen hebben geen of weinig water mee of drinken zout zeewater.
-
-Deze grens kan je zien als een ‘muur’ van water, Gibraltar is omgeven door water, met de zee als bescherming. Wat ik mij afvraag is of een fysieke muur van beton evenveel afweert als water? Het gevaarlijke van deze ‘grens’ is dat deze ook afhankelijk is van het klimaat en veranderd continue. Wat deze oversteek waarschijnlijk gevaarlijker maakt dan iedere andere oversteek.
- </p>
+<div id="breedtid">
 </div>
 
 
+<div id="breedt">
+<h1>De 38e breedtegraad</h1>
+
+<p> 
+De gedemilitariseerde zone is de zone tussen Noord- en Zuid-Korea die na de Koreaanse Oorlog, die eindigde in 1953, werd vastgesteld. Deze grens bevindt zich op de 38e breedtegraad, vandaar de titel van deze grens. Het is de breedste grens ter wereld, namelijk wel vier kilometer. Deze afstand werkt als een bufferzone. Hier lopen geen militairen doorheen waardoor de spanningen tussen twee landen niet direct evident te zien in de grens. Echter buiten de gedemilitariseerde zone zijn beide partijen zwaarbewapend.</p>
+
+<p>Naast dat de grens enorm breed is, is de lengte nog veel langer, namelijk tweehonderdveertig kilometer lang. Tussen dit brede en lange gebied liggen naar schatting ongeveer twee miljoen landmijnen, staan er elektrische hekken, zijn er vallen gemaakt voor tanks en staan er dus aan beide kanten achter de grens legers ‘klaar’ om uit te rukken als het ooit nodig mocht zijn.
+Het is eigenlijk een niemandsland. Er is niets en niemand te bekennen. De ruimte is geneutraliseerd, en maakt het heel vredig ondanks dat het een gebied is tussen twee gevechtslinies, waar er spanning heerst. Deze spanning is duidelijk aanwezig aan beide kanten van de bufferzone.</p>
+
+<p>Ook staan de grootste vlaggenmasten ter wereld in de DMZ (afkorting ‘Demilitarized Zone’). In 1980 bouwde de Zuid-Koreaanse overheid een 98,4 meter hoge vlaggenmast. Het antwoord van de Noord-Koreaanse overheid was het neerzetten van een nog hogere mast die met zijn 160 meter lang de hoogste is ter wereld. Verder zouden beide landen ook luidsprekers bij de grens neerzetten die propagandakreten uitzenden.</p> 
+
+<p>Wat wel een bijzonder fenomeen is, is de hulp die vroegere Noord-Koreanen die nu in Zuid-Korea wonen proberen te geven aan het meeste geïsoleerde land ter wereld. Aangezien de burgers in dat land, volgens bepaalde bronnen, extreem communistisch behandeld worden. Hierbij kan je denken aan het verplichten van legeractiviteiten voor lange perioden, het niet mogen bezitten van materiële goederen met waarde en het opleggen van bepaalde levensstandaarden. Via de Human Rights Foundation laten Noord-Koreaanse dissidenten, die nu dus in Zuid-Korea wonen, waterstofballonnen op in de buurt van de grens, met geld en propaganda eraan gebonden.
+Door middel van een simpel concept, namelijk waterstofballonnen, kunnen grenzen, hoe enorm breed, lang, hoog, gevaarlijk ze ook zijn, alsnog overbrugd worden. Dan denkt men nog een virtuele overbrugging te kunnen uitvoeren, maar dat is niet het geval bij Noord-Korea, die volledig is afgesloten van de wereld, ook virtueel.</p> 
+
+<p>Daarbij wil ik nog even ingaan op de film ‘The Interview’, die gaat over de Koreaanse dictator Kim Jung-Un die in slow-motion wordt opgeblazen door Amerikaanse journalisten. Pyongyang dreigde Zuid-Korea uit te schakelen als de exemplaren van de Hollywood-film de grens zouden oversteken. Maar dat heeft Zuid-Korea zich er niet van weerhouden om het wel te doen. USB-sticks en dvd’s zijn in overvloed verspreid. De ballonnen zijn het enige communicatie middel om de mensen uit Noord-Korea bewust te maken van de buitenwereld en ze te voorzien van informatie, via deze manier zijn dan ook met alle waarschijnlijkheid de beelden verspreid.</p> 
 
 
-<div class="conclusie">
-  <h2>CONCLUSIE</h2>
-<p>
 
-In het voorgaande heb ik verschillende grensmuren geanalyseerd om de onderzoeksvraag; ‘wat zijn er voor een (imaginaire) grensmuren en wat doen ze met de ruimtelijkheid’ Wat zijn er voor een grensmuren en kunnen deze grenzen nieuwe grafische perspectieven bieden op het concept grensmuur, te kunnen beantwoorden. Daarvoor heb ik gekeken naar de esthetiek, de historie en de sociale aspecten rondom een grensmuur. 
-    Wat me opviel tijdens het onderzoeken, is dat er veel meer dimensies zijn toe te voegen aan de grensmuur zoals we hem denken te kennen. Namelijk als een muur, een vastigheid bestaande uit beton, te hoog om overheen te kijken, een construct wat de andere zijde als een mystieke wereld doet beschouwen. Of juist in tijden van chaos, zoals de filosoof Heidegger ooit typeerde, voor een geruststellend wereldbeeld kan zorgen. Waarbij er aan de andere kant huiveringwekkend gevaar heerst: het thuis van de verschrikkelijke vreemdeling.
-Nee, zo zie ik het niet, niet meer in ieder geval. Allereerst ben ik erachter gekomen dat een grensmuur niet gevuld hoeft te zijn. Het kan net zo goed een leegte voorstellen. Een ruimte zonder identiteit. Een onpartijdige ruimte. Zoals we eerder hebben gezien bij de grens tussen de Verenigde Staten en Canada waarbij de grens werd gemarkeerd door juist de leegte te creëren die ongewoon is in de dichtbeboste toendra. Die überhaupt ongewoon is als men denkt aan een grens. Omdat er vaak gelijk gedacht wordt aan vijandigheid als men denkt aan een grensmuur. In dit geval is het echter vriendschap tussen twee landen die alsnog hun eigen land willen afbakenen om zichzelf te identificeren. Ik denk dat deze leegte een nieuwe dimensie kan toevoegen aan de grafische wereld. Meerdere lijnen kunnen toegevoegd worden aan de lijn die we normaliter zouden trekken in het grafisch ontwerp. Een grens wordt op deze manier complexer, en in de grafische wereld waarschijnlijk minder duidelijk te herkennen.
-Daarnaast heb ik ook gezien dat de esthetiek, de vormen van de grensmuur, emoties uitdragen, al dan niet bedoeld. Bijvoorbeeld als we terugkijken naar de ‘No Touching’ -zone tussen Noord en Zuid-Korea. De afstand tussen de twee landen die is creëert, die ongeveer een ruimte beslaat van vier kilometer breed, brengt tegelijkertijd ook een emotie met zich mee. Namelijk de afstand die Noord-Korea wil behouden niet alleen ten opzichte Zuid-Korea, maar ook voor de rest van de wereld. Een typisch voorbeeld van emotie uitdragen via esthetiek van een grensmuur.      Deze emoties reiken tegenwoordig over de hele wereld door middel van de media. Een statement maken door een muur te bouwen is tegenwoordig niet meer een lokaal of nationaal ding. Zo een statement verspreid zich binnen enkele minuten over de hele wereld. Net zoals we gezien hebben bij de verschuivende muur van Rusland in Georgië. Hierdoor heb ik als grafisch vormgever ook in kunnen dat we steeds voorzichtiger moeten zijn, om niet de verkeerde boodschap over te brengen naar anderen. Shockeren hoort echter bij de kunst, alleen moet men uitkijken welk publiek je wilt aanspreken. Net zoals de makers van de ‘Running Fence’ al omliggende bewoners deel lieten uitmaken van hun kunstwerk, om verwarring en shockering te voorkomen.
-    Ten slotte is me opgevallen dat een grensmuur veel beweeglijker is dan men denkt. Natuurlijk is het gemakkelijk te bevatten als het bijvoorbeeld om kunst gaat. Zoals we hebben gezien bij Christo en Jean-Claude of bij The Green Line in Jeruzalem. Echter als er veel mensen bij betrokken zijn en als het gaat om een conflict; het conflict tussen Georgië en Rusland bijvoorbeeld, kreeg ik altijd een gedachte dat het iets vast zou zijn. Een ‘tot hier en niet verder’-idee. Blijkbaar werkt een grens in dit geval als een soort schild wat onderdeel uitmaakt van een harnas. Dit voegt tegelijkertijd iets nieuws toe aan het concept grensmuur in de grafische wereld. Namelijk een grensmuur als een construct in beweging. Als een volgobject voor imaginaire grensgedachten. 
-Uiteindelijk is een grensmuur niet iets wat van links naar rechts gaat, of van rechts naar links. Door alle muren te analyseren ben ik, door de realiteit te bestuderen, nieuwe vormen tegengekomen die een toevoeging kunnen vormen in mijn grafische wereld van de grensmuren. Maar misschien ook in de grafische wereld van de grensmuren zodra ik dit schrijfwerk visueel ga maken, of wellicht tastbaar.  
- </p>
+
+<span class="next"> <a href="#38id"> <h1> • </h1> </a></span>
+</p>
 </div>
 
 
 
 
 
+<div id="belfastid">
+</div>
 
+
+<div id="belfast">
+<h1>De 99 muren van Belfast</h1>
+
+<p> 
+In 1969 ontstonden er gewelddadige rellen tussen de nationalistische katholieken en unionistische protestanten in Belfast, Ierland. Deze gebeurtenis wordt ook wel The Troubles genoemd. Nog steeds is er een grote spanning tussen deze groepen, te zien aan het dodenaantal sinds het begin, wat nu op een aantal van 3500 staat. Om deze groepen uit elkaar te houden werden er muren tussen de protestanten en katholieken wijken ingezet als tijdelijke oplossing. Maar deze muren staan er nog steeds en het zijn er in de loop der jaren alleen maar meer geworden. Deze worden gebouwd om vrede te houden tussen de twee groepen. De bijnaam van deze muren is dan ook gepast: Peace Walls.</p>
+
+<p> Tot nu toe zijn er 99 vredesbarrières met verschillende constructen van totaal eenentwintig kilometer lang die verspreid staan over de verschillende wijken, parken en wegen. Hieronder staat kort beschreven uit welke materialen de grenzen zijn gemaakt:</p>
+
+<p>•&nbsp;&nbsp; 35 barrières zijn gemaakt van verschillende stijlen van metalen hekwerk.<br>
+•&nbsp;&nbsp; 23 barrières bestaan ​​uit een mengsel van een vaste wand met metalen hekwerk boven.<br>
+•&nbsp;&nbsp;  14 mengsels van omheiningen met planten die als een buffer fungeren.<br>
+•&nbsp;&nbsp; 12 locaties waar de wegen zijn afgesloten voor auto’s maar niet voor voetgangers.<br>
+•&nbsp;&nbsp;  8 plaatsen waar alleen een wand staat.<br>
+•&nbsp;&nbsp;  7 plaatsen waar wegen poorten hebben die soms worden afgesloten.</p>
+
+<p> Deze barrières houden de gemeenschappen goed gescheiden. Zo is ook te zien in de serie De Muur van Menno Bentveld. Hij laat beelden zien waarin de gids die hem begeleidt niet een barrière oversteekt, maar vervangen wordt door een andere gids aan de andere kant van de muur. ‘Mensen daar dragen allemaal dezelfde voetbalshirts, maar durven niet eens bij elkaar in de wijk te komen,’ aldus Menno Bentveld.</p>
+
+<p> Er zijn daar ijzeren poorten in de muren, die om negen uur in de ochtend open gaan. Dan komt een man langs met sleutels en om drie uur ’s middags gaan ze weer dicht, want anders slaan ze elkaar de hersens, zo zegt Menno Bentveld. Tenminste, daar zijn ze dan bang voor.</p>
+
+<p> Nu nog steeds ontstaan er rellen tussen de protestanten en katholieken. Vooral 12 juli is een gespannen dag als de protestanten de Oranjemars gaan lopen. Ze herdenken de Slag aan de Boyne, waar in 1690 de Nederlandse en vooral protestante koning-stadhouder Willem III zijn katholieke schoonvader James II versloeg. Deze mars gaat over de Crumlin Road die een scheidslijn vormt tussen de twee gemeenschappen, waar vaak rellen ontstaan. Daarom heeft in 2015 de landelijke paradecommissie besloten niet meer deze weg te doorkuizen. 
+“Deze afscheidingen moeten in 2023 uit het straatbeeld zijn verdwenen”, zei de protestantse premier Peter Robinson en de katholieke vicepremier Martin McGuinness. Maar veel bewoners zijn het daar niet mee eens en voelen zich juist onveilig als de muren worden weggehaald.</p>
+
+<p> Het lijkt wel alsof de barrières er niet meer staan voor dezelfde reden dat ze geplaatst zijn. De vraag is of het nog steeds een gevecht is tussen de katholieken en de protestanten, of dat het nu verplaatst is naar de bewoners van de ene kant van de muur met de andere kant. Dus dat de grens zelf het uitgangspunt is van verdeeldheid, in plaats van de religieuze overtuigingen van de bewoners. 
+</p> 
+
+
+
+
+<span class="next"> <a href="#bermid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+<div id="bermid">
+</div>
+
+
+<div id="berm">
+<h1>De Marokkaanse berm</h1>
+
+<p> 
+Tot 1975 was de Westelijke Sahara een kolonie van de Spanjaarden. Toen die vertrokken kreeg het gebied een onduidelijke status. De Polisario (afkorting; Frente Popular para la Liberación de Saguia el-Hamra y Rio de Oro) is een onafhankelijkheidsbeweging die werd opgericht in 1975 nadat de Spanjaarden vertrokken, die daar een eigen staat wilde creëren voor de Sahrawi. Maar zij waren niet de enige geïnteresseerden in dit gebied.</p>
+
+<p> Hoewel de oorspronkelijke bewoners van de Westelijke Sahara de Sahrawi bevolking was Marokko ook bijzonder geïnteresseerd in dit gebied. Zij stonden met hun leger van 20.000 soldaten tegenover 100.000 soldaten en vrijwilligers van het Marokkaanse leger in de Westelijke Sahara, om het gewilde gebied te bemachtigen.</p>
+
+<p> De Polisario had in een aantal jaar een behoorlijk deel van de Westelijke Sahara veroverd. Al snel bouwde Koning Hassan || van Marokko een muur, ook wel de ‘Marokkaanse berm’ genoemd, van 2735 km lang om de strijd te beslechten voor de guerrillabeweging. Alles ten westen van de muur hoort vanaf dat moment bij Marokko wat ongeveer twee-derde van het totale gebied van de Westelijke Sahara is.</p>
+
+<p> De muur werd gebouwd in zes etappes van verschillende lengtes en begon in 1980 en duurde tot 1987. De muur/berm bestaat niet uit beton, zoals men gewend is van een grens, maar uit zand en rotsen van ongeveer zes meter hoog. Daartussen bevonden zich militaire velden met bunkers, mijnenvelden en om de vijf kilometer wordt4 de berm onderbroken door observatieposten. De muur heeft ook een elektrisch systeem en het gebied wordt constant in de gaten gehouden door satellieten. De Marokkaanse berm wordt ook wel gezien als waarschuwingssysteem en als de grootste functionele militaire barrière in de wereld, volgens internationale analisten.</p>
+
+<p> Voor de Parijs-Dakar rally van 2001 werd speciaal een smalle strook landmijnen verwijderd door Marokko. De Polisario vond dat de rally over het grondgebied een schending van de wapenstilstand zou vormen en wilde uit zelfverdediging militaire activiteiten hervatten op de dag van rally op het grondgebied. Maar sindsdien zijn er positieve stappen richting herstel.</p> 
+
+<p> Opvallend is dat deze enorm lange grens, 2735 kilometer om precies te zijn, om de vijf kilometer een observatiepost heeft. In totaal zijn er dus bijna 550 observatieposten wat allemaal in een kort termijn is gerealiseerd. Wat deze grens anders maakt is dat het geen muur is zoals we die kennen, maar juist vanuit een natuurlijk product is gemaakt. Hij bestaat namelijk uit zand, ongeveer het enige wat er daar in de wijde omgeving te vinden is. De kenmerken van zand hebben in dit geval voordelen; het is namelijk een bewegelijk materiaal dat verschillende vormen kan aannemen. In het geval van het Marokkaanse leger hebben ze er bermen mee gemaakt, maar konden ze ook gemakkelijk veldmijnen er mee verbergen. Vandaar dat deze muur zo snel kon worden gerealiseerd. </p>
+
+
+<span class="next"> <a href="#greenid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+<div id="greenid">
+</div>
+
+
+<div id="green">
+<h1>The Green Line</h1>
+
+<p> 
+“Sometimes doing something poetic can become political,  and sometimes doing something political can become poetic."<br>
+Francis Alÿs</p>
+
+<p> Francis Alÿs is een Belgische kunstenaar die zowel performance, video’s, tekeningen, schilderijen en beeldhouwwerken maakt. In zijn werk onderzoekt hij vaak de spanning in de politiek en uit dat in individuele acties.</p>
+
+<p> In 2004 is Francis Alÿs naar Jeruzalem gegaan om daar een (poëtische) grenslijn te maken (die hij eerder had gemaakt in Sao Paolo, 1995) tussen Palestina en Israël. Dit naar aanleiding van de tijdelijke staak-het-vuren grens die in eerst instantie gecreëerd was door de Verenigde Naties na de Arabisch-Israëlische oorlog van 1947-1948.</p> 
+
+<p> Hij is 24 kilometer gaan lopen met een lekkend blikje groene verf door de straten, parken en over het rotsachtige terrein van Jeruzalem. In totaal werd er 58 liter groene verf gebruikt om een lijn te trekken. Er is een film gemaakt van de wandeling door Julien Devaux, Philippe Bellaiche en Rachel Leah Jones, daarin maakt hij simpelweg een wandeling zonder politieke statements te maken, zonder woorden te spreken.</p>
+
+<p> Het is van weinig belang hoe de verf terecht komt op de grond, zijn arm zwaait heen en weer en de verf danst door de lucht en komt zowel voor als achter hem te rusten op de grond. Wat achterblijft is een lijn waarbij het lijkt alsof die per ongeluk daar terecht is gekomen. Ook verdwijnt de lijn snel door de stof die op waait door het verkeer en mensen die erover heen lopen.</p>
+
+<p> De afgelopen jaren zijn er veel muren geplaatst in het gebied en meer militaire bewaking. De muren worden op een zodanige manier gebouwd dat ze gemakkelijk verplaatsbaar zijn. Alsof er wordt verwacht dat de grens nog verder gaat verschuiven en de muur zich daar aan zou moeten kunnen aanpassen.</p> 
+
+<p> The Green Line zet de toeschouwer aan om te reflecteren over de gelaagdheid van het concept ‘grens’. Alÿs laat hiermee zien dat het belachelijk is dat één persoon, of een kleine groep personen een linie kan bepalen. Zo ook is het volgens hem bespottelijk dat de maatschappij zich zo gemakkelijk aan een grensmuur hecht. Terwijl de grens van oorsprong, wanneer hij werd bepaald door de Verenigde Naties, een denkbeeldig ontastbaar iets was.</p>
+
+
+<span class="next"> <a href="#zoneid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+<div id="zoneid">
+</div>
+
+
+<div id="zone">
+<h1>No touching zone</h1>
+
+<p> 
+De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentwintig verdragen, conventies, protocollen en besluiten. Hierdoor werd in 1925 De Internationale Grens Commissie opgericht door zowel Canadezen als Amerikanen. Beiden worden vertegenwoordigd in deze commissie om het allemaal zo eerlijk mogelijk te laten verlopen. Deze commissie werd verantwoordelijk gesteld voor het in kaart brengen en het onderhoud van de grens tussen de landen.</p> 
+
+<p>De grens loopt langs de 49ste breedtegraad en is in totaal 8800 kilometer lang. Deze lijkt theoretisch gezien helemaal recht maar eigenlijk is dat helemaal niet het geval. Het zijn negenhonderd zigzag lijnen die met elkaar in verbintenis staan met 8000 referentiepunten (grenspaaltjes). De grens tussen Canada en de Verenigde Staten bestaat zowel over land als over water. Maar ook in het water liggen grensboeien om duidelijk te maken tot welk land de wateren behoren waarop men vaart.</p>
+
+<p>Om deze grens zo duidelijk mogelijk aan te duiden is er een No Touching Zone van zes meter. Deze loopt over de volledige lengte van de grens. De Internationale Grens Commissie zorgt ervoor dat alle overhangende bomen, struiken en takken worden verwijderd op de gehele grens tussen de twee landen, zodat obstakels niet het zicht blokkeren op de zes meter breedte.</p> 
+
+<p>Deze grens is esthetisch gezien erg sterk ook omdat deze nog steeds wordt onderhouden. Als je op deze No Touching Zone staat heb je een duidelijk zicht over de grens. In plaats van dat het zicht onderbroken wordt door een muur. Ook is dit een hele vriendelijke maar heldere vorm van een grens, wat niet tastbaar is.</p>
+
+<p>“Frontiers are indeed the razor‘s edge on which hang suspended the modern issues of war or peace, of life or death to nations.” Lord Curzon (1907)</p>
+
+
+<span class="next"> <a href="#rusid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+<div id="rusid">
+</div>
+
+
+<div id="rus">
+<h1>Het conflict tussen Rusland en Georgië</h1>
+
+<p> In 1991 werd Georgië een eigen staat, daarvoor was het een republiek van de Sovjet-Unie (nu Rusland). Zuid-Ossetië, een van oorsprong Russisch gebied, lag vanaf toen in Georgië. Alhoewel de bevolking in dat gebied er niet helemaal mee eens was. Zij voelden zich meer Rus dan Georgiër. Bovendien hadden al deze mensen een Russisch passoort waar ze ook tevreden mee waren aangezien in vergelijking de Russische economie vele malen bloeiender was dan de Georgische.</p> 
+
+<p>De Zuid-Ossenten zetten dan ook niet kort na de onafhankelijkheid een burgeroorlog op gang met als achterliggende gedachte autonomie. Na een kort en hevig conflict tussen de troepen van Zuid-Ossentië en het land Georgië werd er na een jaar een staakt-het-vuren uitgeroepen. Eigenlijk sinds 1992 is er een ‘negeerperiode’ aan de gang. Beide partijen erkennen elkaar niet, en laten elkaar met rust zolang er geen conflicten ontstaan.</p> 
+
+<p>Echter, in 2008, vallen de Georgiërs de hoofdstad Tsinvali van de ‘Republiek van Zuid-Ossentië’ (hoe ze zichzelf noemden) binnen. Rusland reageerde snel op deze inval, en vonden ook dat ze daar recht op hadden aangezien de mensen die woonden in de Republiek een Russisch paspoort hadden.</p> 
+
+<p>De ‘Vijfdaagse Oorlog’ die toen startte begon op 7 augustus 2008. Officieel gestart door de Georgische president Saakasjvili. Maar uiteindelijk had Rusland al vrij snel controle over het gebied gekregen, waarna ze verder de grens overtrokken, Georgië in. Deze korte en ondoordachte (van de Georgische kant dan) oorlog claimde vierhonderd mensenlevens en ongeveer 127.000 mensen zijn gevlucht. Op 15 augustus werd een vredesakkoord ondertekend en iets later verklaarde Rusland Zuid-Ossetië als onafhankelijke Republiek.</p>
+
+<p>Al snel begon Rusland met het plaatsten van hekwerken en blokkades op de grens tussen Zuid-Ossetië en Georgië om de veiligheid van de nieuwe onafhankelijke Republiek te waarborgen. Veel inwoners werden op deze manier afgescheiden van familie, landbouwgronden en buren. Dit ontnam de bewegingsvrijheid van de lokale bevolking. Daarnaast heeft Rusland niet alle hekwerken op de originele grens geplaatst maar sommige ook elf kilometer verder op binnen het Georgisch grondgebied.</p> 
+<p>De afscheiding die Rusland bouwt wordt niet internationaal niet erkend. EU woordvoerster voor Internationale Aangelegenheden Catherine Ashton benadrukt dat de afscheiding ingaat tegen de territoriale integriteit van Georgië en de stabiliteit en veiligheid van de grensregio in gevaar brengt.</p>
+
+<p>Tegenwoordig is Rusland steeds verder de grens aan het kruipen ten nadele van de Georgië. Door de grens steeds verder te verleggen komt er ongeveer anderhalve kilometer van de Bakoe-Soepsa-oliepijplijn in handen van de Russen. De oliepijplijn van BP vervoert tot 10.000 vaten per dag van de hoofdstad van Azerbeidzjan naar de Zwarte-Zeehaven van het Georgische Soepsa. De pijplijn is belangrijk voor de olietoevoer naar Europa. Maar nu komt deze pijplijn, en daarmee de toevoer van olie in gevaar doordat Rusland nu een deel van het gebied bezet.</p> 
+
+<p>In sommige gevallen worden dorpen voor de helft afgesneden door hekken. Bewoners zijn zelfs naar bed gegaan in Georgië en nadat de Russen s’ nachts een hek installeerde, werden ze wakker in het bezette Zuid-Ossetië.</p> 
+
+<p>Uit het voorgaande komt een nieuwe manier van afbakening naar voren. Grenzen zijn namelijk in dit geval niet iets statisch, iets wat vast staat, en groepen mensen uit elkaar houdt. In dit geval hebben de grenzen een dubbele functie, namelijk het uitbreiden van het grondgebied met als bescherming de grens zelf én het uit elkaar houden van vijanden. 
+</p>
+
+
+<span class="next"> <a href="#favid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+
+<div id="favid">
+</div>
+
+
+<div id="fav">
+<h1>De Braziliaanse favela's</h1>
+
+<p> In Brazilië zijn er ongeveer 750 favela’s ook wel krottenwijk of sloppenwijk. De bewoners hebben vaak een laag inkomen en leven beneden ‘normale’ levensstandaarden. Drugs en bendeoorlogen spelen een belangrijke rol in het dagelijkse leven van vele bewoners. Het wordt dan ook sterk afgeraden om als toerist of als rijk uitziend persoon deze gebieden te betreden.
+</p> 
+
+<p>In 2009 heeft de overheid van Brazilië aangekondigd muren te bouwen rond elf favela’s. Veel favela’s staan tegen het regenwoud aan en dreigen te verdwijnen door illegale uitbreiding van de bewoners. Dat wordt tenminste als rede opgegeven door de overheid. Maar deze ingreep kan ook vanuit een ander perspectief benaderd worden. Zo beweren mensenrechtenorganisaties dat de muren gebouwd zijn om de inwoners van de favela’s gescheiden te houden van de rest van de samenleving in Rio de Janeiro.</p> 
+
+<p>De overheid begon in maart 2009 met de favela Dona Marta (Santa Marta) onder het beroemde standbeeld van Christus de Verlosser in Rio. Binnen 120 dagen werd er een muur gebouwd van driehonderd meter lang en vier meter hoog. De muur was gemaakt van beton en op een aantal plekken doorgangen naar andere aangrenzende buurten. De favela’s Rosinha, Vidigal, Parque da Cicade volgde snel erachteraan.</p> 
+
+<p>Niet alleen de arme wijken worden buitengesloten van de samenleving. Aan de rand van Sao Paulo is in 1974 het concept voor Alphaville ontstaan. Een landgoed wat omgebouwd werd tot een gemeenschap achter gesloten muren om op deze manier de criminaliteit tegen te gaan. Dit fenomeen is bekend in de sociale geografie als een gated community, iets wat tegenwoordig overal de hele wereld te zien is. Maar dan vooral in de gebieden waar er grote verschillen zijn in economische ongelijkheid. Alphaville, de naam zegt het al, heeft nu meer dan duizend gewapende mannen op de muren staan. Er is ook een checkpoint met beperkte toegang tot de stad. Alleen de mensen met kapitaal en goede afkomst mogen in deze stad wonen.</p> 
+
+<p>Ook dit is weer een ander concept van een muur, namelijk mensen uit verschillende economische klasse uit elkaar halen, uitgaande van het perspectief van de mensenrechtenorganisatie. Het behoudt van het tropisch regenwoud is een beetje een loos argument, als men kijkt naar al het kappen in andere regio’s waar bijna niets aan wordt gedaan.
+</p>  
+
+<p>Er is wetenschappelijk bewijs dat inderdaad onder de ‘lagere klasse’ meer criminaliteit voorkomt, hoewel, als je een andere vormen van criminaliteit die bekend zijn, bijvoorbeeld uitbuiting, vaak bedreven door rijke kapitaalzoekers, niet meetelt. Maar dan is de vraag: hoe gaat deze afscheiding uitwerken op de mensen? Zal crimineel gedrag niet veel hoger worden als sommige op deze manier worden buitengesloten? Met andere woorden: wat zijn de psychologische gevolgen als de mensen in de favela’s duidelijk bestempeld worden als minderwaardig?</p> 
+
+
+
+<span class="next"> <a href="#straatid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+<div id="straatid">
+</div>
+
+
+<div id="straat">
+<h1>De Straat<br> van Gibraltar</h1>
+
+<p>Een van de meest bekende zeestraat of zee-engte in Europa is de Straat van Gibraltar die tussen Marokko (Afrika) en Spanje (Europa) loopt. De straat is het zwaarste bewaakte punt in Europa.</p>  
+<p>De breedte verschilt tussen de 14 kilometer op het smalste stuk tot 44 km op het breedste stuk. In totaal heeft de zee-engte een lengte van 60 kilometer. In deze straat komen tevens de Middellandse Zee en de Atlantische Oceaan samen.</p> 
+
+<p>“Of course I’m scared, but I don’t have any choice but this one. It’s like everything is closed in your face, so there’s nothing else but the sea. There’s nothing but the sea as a way to get out.” Houthayfa (21), Syria</p>  
+
+<p>Op dit stuk in Europa komen de meeste migranten binnen, maar ook drugsmokkel is hier aan de orde. De Spaanse regering heeft drie torens gebouwd met hightech apparatuur om illegale immigranten tegen te houden. Langs de zeestraat zijn honderden radars, sensoren en dag-nacht zicht camera’s aangebracht. Het controlecentrum in Algeciras bevat een enorm scherm dat alle schepen in de Straat van Gibraltar onder toezicht houdt.</p>  
+
+<p>Frontex is het samenwerkingsverband voor de bewaking van de Europese buitengrenzen deze patrouille vaart ook in de Straat van Gibraltar. Het doel is niet om ze tegen te houden, maar om ervoor te zorgen dat ze uit de onveilige situatie komen. Veel vluchtelingen worden onderschept in kleine opblaasboten die overvol zitten en vaak omslaan door de hevige golven.</p>  
+
+<p>Tussen 1990 en 2013 zijn er ongeveer 3188 mensen omgekomen in de zuidelijke buitengrenzen van Europa. De meeste doodsoorzaken zijn verdrinking en onderkoeling. Maar ook uitdroging want velen hebben geen of weinig water mee of drinken zout zeewater.</p> 
+
+<p>Deze grens kan je zien als een ‘muur’ van water, Gibraltar is omgeven door water, met de zee als bescherming. Wat ik mij afvraag is of een fysieke muur van beton evenveel afweert als water? Het gevaarlijke van deze ‘grens’ is dat deze ook afhankelijk is van het klimaat en veranderd continue. Wat deze oversteek waarschijnlijk gevaarlijker maakt dan iedere andere oversteek.
+</p> 
+
+
+
+<span class="next"> <a href="#conclusieid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+<div id="conclusieid">
+</div>
+
+
+<div id="conclusie">
+<h1>Conclusie</h1>
+
+<p>In het voorgaande heb ik verschillende grensmuren geanalyseerd om de onderzoeksvraag; ‘wat zijn er voor een (imaginaire) grensmuren en wat doen ze met de ruimtelijkheid’ Wat zijn er voor een grensmuren en kunnen deze grenzen nieuwe grafische perspectieven bieden op het concept grensmuur, te kunnen beantwoorden. Daarvoor heb ik gekeken naar de esthetiek, de historie en de sociale aspecten rondom een grensmuur.</p>  
+
+  <p>Wat me opviel tijdens het onderzoeken, is dat er veel meer dimensies zijn toe te voegen aan de grensmuur zoals we hem denken te kennen. Namelijk als een muur, een vastigheid bestaande uit beton, te hoog om overheen te kijken, een construct wat de andere zijde als een mystieke wereld doet beschouwen. Of juist in tijden van chaos, zoals de filosoof Heidegger ooit typeerde, voor een geruststellend wereldbeeld kan zorgen. Waarbij er aan de andere kant huiveringwekkend gevaar heerst: het thuis van de verschrikkelijke vreemdeling.</p> 
+
+<p>Nee, zo zie ik het niet, niet meer in ieder geval. Allereerst ben ik erachter gekomen dat een grensmuur niet gevuld hoeft te zijn. Het kan net zo goed een leegte voorstellen. Een ruimte zonder identiteit. Een onpartijdige ruimte. Zoals we eerder hebben gezien bij de grens tussen de Verenigde Staten en Canada waarbij de grens werd gemarkeerd door juist de leegte te creëren die ongewoon is in de dichtbeboste toendra. Die überhaupt ongewoon is als men denkt aan een grens. Omdat er vaak gelijk gedacht wordt aan vijandigheid als men denkt aan een grensmuur. In dit geval is het echter vriendschap tussen twee landen die alsnog hun eigen land willen afbakenen om zichzelf te identificeren. Ik denk dat deze leegte een nieuwe dimensie kan toevoegen aan de grafische wereld. Meerdere lijnen kunnen toegevoegd worden aan de lijn die we normaliter zouden trekken in het grafisch ontwerp. Een grens wordt op deze manier complexer, en in de grafische wereld waarschijnlijk minder duidelijk te herkennen.</p> 
+
+<p>Daarnaast heb ik ook gezien dat de esthetiek, de vormen van de grensmuur, emoties uitdragen, al dan niet bedoeld. Bijvoorbeeld als we terugkijken naar de ‘No Touching’ -zone tussen Noord en Zuid-Korea. De afstand tussen de twee landen die is creëert, die ongeveer een ruimte beslaat van vier kilometer breed, brengt tegelijkertijd ook een emotie met zich mee. Namelijk de afstand die Noord-Korea wil behouden niet alleen ten opzichte Zuid-Korea, maar ook voor de rest van de wereld. Een typisch voorbeeld van emotie uitdragen via esthetiek van een grensmuur.    Deze emoties reiken tegenwoordig over de hele wereld door middel van de media. Een statement maken door een muur te bouwen is tegenwoordig niet meer een lokaal of nationaal ding. Zo een statement verspreid zich binnen enkele minuten over de hele wereld. Net zoals we gezien hebben bij de verschuivende muur van Rusland in Georgië. Hierdoor heb ik als grafisch vormgever ook in kunnen dat we steeds voorzichtiger moeten zijn, om niet de verkeerde boodschap over te brengen naar anderen. Shockeren hoort echter bij de kunst, alleen moet men uitkijken welk publiek je wilt aanspreken. Net zoals de makers van de ‘Running Fence’ al omliggende bewoners deel lieten uitmaken van hun kunstwerk, om verwarring en shockering te voorkomen.</p> 
+
+  <p>Ten slotte is me opgevallen dat een grensmuur veel beweeglijker is dan men denkt. Natuurlijk is het gemakkelijk te bevatten als het bijvoorbeeld om kunst gaat. Zoals we hebben gezien bij Christo en Jean-Claude of bij The Green Line in Jeruzalem. Echter als er veel mensen bij betrokken zijn en als het gaat om een conflict; het conflict tussen Georgië en Rusland bijvoorbeeld, kreeg ik altijd een gedachte dat het iets vast zou zijn. Een ‘tot hier en niet verder’-idee. Blijkbaar werkt een grens in dit geval als een soort schild wat onderdeel uitmaakt van een harnas. Dit voegt tegelijkertijd iets nieuws toe aan het concept grensmuur in de grafische wereld. Namelijk een grensmuur als een construct in beweging. Als een volgobject voor imaginaire grensgedachten.</p>  
+
+<p>Uiteindelijk is een grensmuur niet iets wat van links naar rechts gaat, of van rechts naar links. Door alle muren te analyseren ben ik, door de realiteit te bestuderen, nieuwe vormen tegengekomen die een toevoeging kunnen vormen in mijn grafische wereld van de grensmuren. Maar misschien ook in de grafische wereld van de grensmuren zodra ik dit schrijfwerk visueel ga maken, of wellicht tastbaar.  
+</p> 
+
+
+
+<span class="next"> <a href="#conclusieid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+<div id="bronnenid">
+</div>
+
+
+<div id="bronnen">
+<h1>Bronnen</h1>
+
+<p>1. Robert Lee Frost was een Amerikaanse dichter en toneelschrijver. Zijn inspiratie haalde hij vooral uit de natuur, het weer en het landschap van New England. De streek waar hij woonde destijds. <br><br>
+
+
+  2. Lothar Boeykens, “Muren die de wereld verdelen”, http://mo.be/nieuws/muren-die-de-wereld-verdelen, 14 oktober, 2014  <br><br>
+
+  3. Henk van Houtum, “Hoeveel grens hebben we nodig”, http://www.groene.nl/artikel/hoeveel-grens-hebben-we-nodig, 4 november 2009  <br><br>
+
+  4. Stéphane Rosière & Reece Jones (2012) Teichopolitics: Re-considering Globalisation Through the Role of Walls and Fences, Geopolitics, 17:1, 217-234  <br><br>
+
+  5. Daily Mail & Guardian, 8 september 2003  <br><br>
+
+  6. Kopinski, Dominik & Polus, Andrzej, 2013, p. 96 Crossing African Borders: Migration and Mobility, Is Botswana creating a new gaza strip? An analysis of the ‘fence discourse’. Center of African Studies (CEA) ISCTE-IUL, University Institute of Lisbon  <br><br>
+
+  7. Bekijk de site om meer indrukwekkende projecten van Christo en Jean-Claude te ontdekken: www.christojeanneclaude.net<br><br>
+
+ 8. Interview Christo and Jeanne-Claude: On the Making of the Running Fence, Christo and Jeanne-Claude: Remembering the Running Fence, Smithsonian American Art Museum, 2 april 2010  <br><br>
+
+9. Anne-Laure Amilhat Szary. Walls and border art: the politics of art display. Journal of Borderlands, Studies, Taylor & Francis, 2012, 27 (2), pp.213-228  <br><br>
+
+10. Ronald Garan’s uitspraak: http://www.fragileoasis.org/blog/2015/8/borders-from-space/  <br><br>
+
+11. Gevonden op 13 oktober 2015 op de volgende website: http://articles.economictimes.indiatimes.com/2015-03-03/news/59725407_1_led-bulbs-india-pakistan-border-international-border  <br><br>
+
+12. The Editors of Encyclopaedia Britannica,  Demilitarized zone (DMZ), http://www.britannica.com/place/demilitarized-zone-Korean-peninsula  <br><br>
+
+13. (http://www.vice.com/nl/video/propaganda-boven-pyongyang-video-826)  <br><br>
+
+14. artikel; F.W. Boal, Belfast: Walls Within, Political geography 21, 687-69, juni 2002, http://www.researchgate.net/profile/Fw_Boal/publication/222574779_Belfast_walls<br>_within/links/53e1247a0cf24f90ff60e584.pdf  <br><br>
+
+15. artikel; Onbekend, De muren van Belfast, NRC, 15 nov. 2012, www.nrc.nl/nieuws/2012/11/15/de-muren-van-belfast  <br><br>
+
+(http://belfastinterfaceproject.org/interfaces-map-and-database-overview)  <br><br>
+
+Documentaire; NPO 2: De muur; Belfast, Mexico, Westelijke Sahara, Westelijke Jordaanoever, Slowakije, Korea, Menno Bentveld, Vara 2014  <br><br>
+
+Marinus Antonius (Menno) Bentveld (Leiden, 22 juni 1967) is een Nederlands radio- en televisiepresentator.<br><br>
+
+  NPO 2: De muur; Belfast, Mexico, Westelijke Sahara, Westelijke Jordaanoever, Slowakije, Korea, Menno Bentveld, Vara 2014  <br><br>
+
+(http://www.nu.nl/buitenland/3418739/noord-ierland-streeft-verzoening-bevolking.html)  <br><br>
+
+NPO 2: De muur; Belfast, Mexico, Westelijke Sahara, Westelijke Jordaanoever, Slowakije, Korea, Menno Bentveld, Vara 2014  <br><br>
+
+(http://removethewall.org/the-wall/construction-of-the-moroccan-walls/)  <br><br>
+
+Human Rights Watch (2001), Landmine Monitor Report 2001: Toward a Mine-free World,  Printed in the United States of America  <br><br>
+
+Jarat Chopra (1997) A chance for peace in Western Sahara, Survival, 39:3, p. 51-65  <br><br>
+
+film; Francis Alÿs, The Greenline, Jerusalem, 2004, http://francisalys.com/greenline/, https://vimeo.com/132929393<br><br>
+
+  essay; onbekend, The Greenline, http://www.bordermachines.net/green2.html  <br><br>
+
+http://beaufort2015.be/blog/een-grens-is-in-oorsprong-een-abstract-begrip  <br><br>
+
+http://www.internationalboundarycommission.org/index-eng.html  <br><br>
+
+International Boundary Commission Joint Annual Report 2013 http://www.internationalboundarycommission.org/docs/ibc-2013-report-eng.pdf  <br><br>
+
+Auteur onbekend, UNHCR (The UN Refugee Agency) Global Report 2009, Georgië, http://www.unhcr.org/gr09/index.html, 2009, p.263-267  <br><br>
+
+Lucas Desreijcker, Rusland bouwt “Berlijnse Muur” in Georgië, http://www.mo.be/artikel/rusland-bouwt-berlijnse-muur-georgie, 15 oktober 2013  <br><br>
+
+ European Union External Action, Statement, by the Spokesperson of EU High Representative Catherine Ashton on the placement of obstacles along administrative boundary lines in Georgia, http://eeas.europa.eu/delegations/georgia/documents/news/20131001_euhr<br>_statement_en.pdf,  Brussel, 1 oktober 2013  <br><br>
+
+ Auteur onbekend, NOS, Georgië: Russen bezetten ons grondgebied, http://nos.nl/artikel/2047058-georgie-russen-bezetten-ons-grondgebied.html, 15 juli 2015  <br><br>
+
+ Artikel; Luke Coffey, The creeping Russian border in Georgia, 27 Jul 2015, Aljazeera, http://www.aljazeera.com/indepth/opinion/2015/07/creeping-russian-border-georgia-south-ossetia-abkhazia-150722111452829.html <br><br>
+
+  Íñigo Moré, 2011, The Borders of Inequality: Where Wealth and Poverty Collide, Uitgever University of Arizona Press, p.136-138<br><br>
+
+ Dorothee Brantz, Sasha Disko, Georg Wagner-Kyora, 2014, Thick Space: Approaches to Metropolitanism, Uitgever Transcript Verlag, 2014, p.192-202  <br><br>
+
+Patrick Kingsley and Sima Diab, september 2015, Four Syrians explain why they have no option but to take to the sea, The Guardian  <br><br>
+
+Peter Andreas, 2003, Redrawing the Line: Borders and Security in the Twenty-First Century, Uitgever MIT press, p. 78-111  <br><br>
+
+Iñaki Oñorbe Genovesi, 12 mei 2015, Aantal gestorven migranten moeilijk vast te stellen, Volkskrant, http://www.volkskrant.nl/buitenland/aantal-gestorven-migranten-moeilijk-vast-te-stellen~a4018190/   <br><br>
+
+Dick Wittenberg, 2015, Prikkeldraad: een geschiedenis van goed en kwaad, Uitgever Atlas 
+</p> 
+
+
+
+<span class="next"> <a href="#startid"> <h1> • </h1> </a></span>
+</p>
+</div>
+
+
+
+
+
+
+</div>
 </body>
 </html>
+
