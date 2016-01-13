@@ -490,6 +490,25 @@ position:absolute;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* nav bar */
 
 .nav-bar {
@@ -537,13 +556,158 @@ position:absolute;
  
  
   
+
+/* BEELDEN*/
   
 }
 
 
+#beeldid{
+  position:absolute;
+  content: " "; 
+  margin-top:4000px; 
+  margin-left:6000px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG2{
+  position:absolute;
+  content: " "; 
+  margin-top:160px; 
+  margin-left:2400px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG3{
+  position:absolute;
+  content: " "; 
+  margin-top:2960px; 
+  margin-left:200px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG4{
+  position:absolute;
+  content: " "; 
+  margin-top:1400px; 
+  margin-left:8400px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG5{
+  position:absolute;
+  content: " "; 
+  margin-top:1000px; 
+  margin-left:3500px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG6{
+  position:absolute;
+  content: " "; 
+  margin-top:4300px; 
+  margin-left:8400px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG7{
+  position:absolute;
+  content: " "; 
+  margin-top:7000px; 
+  margin-left:200px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG8{
+  position:absolute;
+  content: " "; 
+  margin-top:5600px; 
+  margin-left:1950px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG9{
+  position:absolute;
+  content: " "; 
+  margin-top:3000px; 
+  margin-left:6200px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG10{
+  position:absolute;
+  content: " "; 
+  margin-top:6500px; 
+  margin-left:3400px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG11{
+  position:absolute;
+  content: " "; 
+  margin-top:9000px; 
+  margin-left:2000px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG12{
+  position:absolute;
+  content: " "; 
+  margin-top:6000px; 
+  margin-left:100px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG13{
+  position:absolute;
+  content: " "; 
+  margin-top:9000px; 
+  margin-left:4500px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG14{
+  position:absolute;
+  content: " "; 
+  margin-top:6000px; 
+  margin-left:8000px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
+
+#IMG15{
+  position:absolute;
+  content: " "; 
+  margin-top:8000px; 
+  margin-left:8400px; 
+  padding-left: 300px;
+  padding-top:40px;
+}
 
 
 
+.onderschrift {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: bold;
+  width: auto;
+  padding-left: 10px;
+
+}
 
 
 
