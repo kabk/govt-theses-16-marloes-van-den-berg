@@ -2,6 +2,7 @@ body {
 	background-color:white;
 	font-family: 'Noto Sans', sans-serif;
 	padding:0;
+	width:6000px;
 }
 
 .header {
@@ -57,7 +58,7 @@ p {
 
 	font-size: 16px;
 	font-family: 'Noto Sans', sans-serif;
-    margin-left: 400px;
+   margin-left: 50px;
 	width: 500px;
 	line-height: 2.0;
 	margin-bottom: 50px;
@@ -70,7 +71,7 @@ p {
 
 	font-size: 16px;
 	font-family: 'Noto Sans', sans-serif;
-    margin-left: 600px;
+   
 	width:400px;
 	line-height: 2.0;
 	margin-bottom: 50px;
