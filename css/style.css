@@ -35,6 +35,26 @@ p {
 	
 }
 
+footer {
+    font-family: 'Noto Sans', sans-serif;
+    position: fixed;
+    bottom: 30px;
+    text-align: right;
+    left: 250px;
+    width: 225px;
+    font-size: 10px;
+    line-height: 18px;
+    left: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-left: 0px;
+    border:solid;
+}
+
+
+
+
 /* AROUND BORDER */
 
 #top, #bottom, #left, #right {
@@ -708,6 +728,8 @@ position:absolute;
   padding-left: 10px;
 
 }
+
+
 
 
 
