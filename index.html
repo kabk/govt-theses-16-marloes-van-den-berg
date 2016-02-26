@@ -19,7 +19,7 @@
         <meta name="" content=>
                 
         <!-- This is the title used by Facebook/Twitter: they recommend to leave out the site name -->
-        <meta property="og:title" content="Extraterrestrial communication" />
+        <meta property="og:title" content="Grensmuren" />
         <!-- This is the the preview image used by Facebook/Twitter.
              Facebook currently prefers a 1200x630 image
              Import: this has to be an absolute url including the domain name -->
@@ -34,9 +34,12 @@
         <meta property="dc:created" content="2015-12-05T00:00:00Z" />
         <meta property="dc:modified" content="2015-12-05T00:00:00Z" />
   
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
   
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -89,39 +92,127 @@ $(document).ready(function(){
 </script>
 
 
+<script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+                
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
 
+      $(document).ready(function(){
+        $(".iets").click(function(){
+          $("#divmenu").slideToggle(100);
+        });
+      });
+
+    </script>
+
+<script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+                
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+      $(document).ready(function(){
+        $(".print").click(function(){
+          $(".printdiv").slideToggle(100);
+        });
+      });
+
+    </script>
+
+
+
+<div class="iets">
+  <a><span class="ietsanders">□</span></a>
+</div>
+
+<div class="print">
+  <a><span class="printanders">□</span></a> 
+</div>
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<nav class="nav-bar">
-  <ul>
+<div id="divmenu">
 
+<div id="colum1">
+
+  <nav class="nav-bar">
+  <ul>
     <li><a href="#startid">Titel</a></li>
     <li><a href="#abstractid">Abstract</a></li>
     <li><a href="#inleidingid">1. Inleiding</a></li>
     <li><a href="#vierid">2. Vier soorten grenzen</a></li>
     <li><a href="#casusid">3. Casus onderzoek</a></li>
-    <li><a href="#botsid">&nbsp;&nbsp;&nbsp;&nbsp;3.1 Botswana en Zimbabwe</a></li>
-    <li><a href="#runningid">&nbsp;&nbsp;&nbsp;&nbsp;3.2 The Running Fence</a></li>
-    <li><a href="#ruimteid">&nbsp;&nbsp;&nbsp;&nbsp;3.3 De grens vanuit de ruimte</a></li>
-    <li><a href="#breedtid">&nbsp;&nbsp;&nbsp;&nbsp;3.4 De 38e breedtegraad</a></li>
-    <li><a href="#belfastid">&nbsp;&nbsp;&nbsp;&nbsp;3.5 De 99 muren van Belfast</a></li>
-    <li><a href="#bermid">&nbsp;&nbsp;&nbsp;&nbsp;3.6 De Marokkaanse berm</a></li>
-    <li><a href="#greenid">&nbsp;&nbsp;&nbsp;&nbsp;3.7 The Green Line</a></li>
-    <li><a href="#zoneid">&nbsp;&nbsp;&nbsp;&nbsp;3.8 No touching zone</a></li>
-    <li><a href="#rusid">&nbsp;&nbsp;&nbsp;&nbsp;3.9 Het conflict tussen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rusland en Georgië</a></li>
-    <li><a href="#favid">&nbsp;&nbsp;&nbsp;&nbsp;3.10 De Braziliaanse favela’s</a></li>
-    <li><a href="#straatid">&nbsp;&nbsp;&nbsp;&nbsp;3.11 De Straat van Gibraltar</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+<div id="colum1"> 
+
+  <nav class="nav-bar">
+  <ul>
+    <li><a href="#botsid">3.1 Botswana en Zimbabwe</a></li>
+    <li><a href="#runningid">3.2 The Running Fence</a></li>
+    <li><a href="#ruimteid">3.3 De grens vanuit de ruimte</a></li>
+    <li><a href="#breedtid">3.4 De 38e breedtegraad</a></li>
+    <li><a href="#belfastid">3.5 De 99 muren van Belfast</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+<div id="colum1">  <nav class="nav-bar">
+  <ul>
+   <li><a href="#bermid">3.6 De Marokkaanse berm</a></li>
+    <li><a href="#greenid">3.7 The Green Line</a></li>
+    <li><a href="#zoneid">3.8 No touching zone</a></li>
+    <li><a href="#rusid">3.9 Het conflict tussen Rusland en Georgië</a></li>
+    <li><a href="#favid">3.10 De Braziliaanse favela’s</a></li>
+  </ul>
+</nav></div>
+
+
+<div id="colum1">  <nav class="nav-bar">
+  <ul>
+  <li><a href="#straatid">3.11 De Straat van Gibraltar</a></li>
     <li><a href="#conclusieid">4. Conclusie</a></li>
     <li><a href="#bronnenid">5. Bronnen</a></li>
      <li><a href="#beeldid">Beeld</a></li>
-
-
+     <li><a href="#KAART1">Kaarten</a></li>
   </ul>
-</nav>
+</nav></div>
+
+
+</div>
+
+
+
 
 <div style="width:10000px; height:10000px; overflow:scroll">
 
@@ -130,18 +221,18 @@ $(document).ready(function(){
 <div id="top"></div>
 <div id="bottom"></div>
 
-<footer> PRINT<br> make sure your paper size is<br> 1189mm X 841mm</footer>
+<footer class="printdiv"> <a href="" onClick="window.print()" value="print">PRINT</a><br> make sure your paper size is<br> 1189mm X 841mm</footer>
 
 <div id="startid">
 </div>
 
 
 <div id="start">
-<h1>GRAFISCHE VISIES <br> OP DE GRENSMUUR</h1>
 
 
-<span class="next"> <a href="#abstractid"> <h1> • </h1> </a></span>
-</p>
+
+<a  href="#abstractid"> <span><h3>GRAFISCHE VISIES OP DE GRENSMUUR</h3></span></a>
+
 </div>
 
 
@@ -172,7 +263,7 @@ $(document).ready(function(){
 <p>The way in which a border wall is expressed in graphic design sounds actually quite unemotional, despite the fact that in real circumstances it is considered to be full of emotional loads. Therefore, in this thesis,  I am going to analyse a variety of border walls to get more insight in how to contrive ‘new’ graphic perspectives on the border wall by especially exploring the social causes on society.</p>
 
 
-<span class="next"><a href="#inleidingid"> <h1> • </h1> </a></span>
+<span style= "margin-left: 46%;" class="next"><a href="#inleidingid">◆</a></span>
 </p>
 </div>
 
@@ -184,11 +275,13 @@ $(document).ready(function(){
 
 
 <div id="inleiding">
-    <h1>Inleiding</h1>
+    <h1>Inleiding</h1> 
+
+
 
 <p>In het tijdperk van globalisering groeit het aantal grensmuren in de wereld als nooit tevoren en veranderen de grenzen met de mens mee. Regeringen nemen dan ook steeds vaker de beslissing om nationale ruimten op een materialistische manier af te bakenen. Niet alle landen die aan elkaar grenzen hebben namelijk vrede met elkaar en willen hun eigen land beschermen. Deze landen versterken de grens met barrières, dit kunnen betonnen wanden en ijzeren hekwerken zijn, maar ook zandvlakten met militaire bewaking. Ook wel een grensmuur genoemd. De meest voorkomende motieven voor het bouwen van grensmuren is (mensen)smokkel, illegale migratie, geweld en terrorisme, maar kan bijvoorbeeld ook ziekte zijn.</p>
 <p>
-In de atlas worden de nationale grenzen weergegeven door statische en duidelijke scheidingslijnen. In sommige gebieden kunnen deze lijnen lineair zijn; bijvoorbeeld te zien in het continent Afrika, maar ze kunnen ook een ingewikkelde zigzag-structuur hebben, zoals te zien is in de Westerse gebieden. Echter zijn de grenzen die men in de atlas ziet alleen een houvast voor het concept ‘nationaal land’ en waar het zich in verhouding tot andere landen bevindt. Wat veel mensen niet van op de hoogte zijn, is dat er nog veel meer grenzen zijn dan de grenzen die verschillende naties van elkaar scheiden. Deze kunnen net zoals landgrenzen conceptueel, imaginair zijn of daadwerkelijk fysiek.   Vooral nu, anno 2015, komen er via Zuid-Europa immens veel vluchtelingen en gelukzoekers binnen en groeit daar het aantal grensmuren. Deze grensmuren fungeren niet alleen voor bescherming voor een nationaal gebied, maar reiken tot een ruimte wat heel Europa betreft. Dit is dan ook een duidelijk voorbeeld dat laat zien dat grensmuren meer inhouden dan een alleen een nationale grens. Deze vluchtelingen die de grenzen van Europa proberen te overbruggen overwegen levensgevaarlijke trajecten om armoede en oorlog in het thuisland te ontvluchten. Elke dag sterven er weer migranten door de grensmuur als wegversperring, waardoor voedsel en zorg uitblijven op kritieke momenten. ’De grensmuren die nu bestaan rond Europa maken de tocht gevaarlijker voor vluchtelingen en voordeliger voor mensensmokkelaars’, aldus professor Michel Foucher.</p>
+In de atlas worden de nationale grenzen weergegeven door<sup class="bron"> <a href= "#bronnenid">1</a></sup> statische en duidelijke scheidingslijnen. In sommige gebieden kunnen deze lijnen lineair zijn; bijvoorbeeld te zien in het continent Afrika, maar ze kunnen ook een ingewikkelde zigzag-structuur hebben, zoals te zien is in de Westerse gebieden. Echter zijn de grenzen die men in de atlas ziet alleen een houvast voor het concept ‘nationaal land’ en waar het zich in verhouding tot andere landen bevindt. Wat veel mensen niet van op de hoogte zijn, is dat er nog veel meer grenzen zijn dan de grenzen die verschillende naties van elkaar scheiden. Deze kunnen net zoals landgrenzen conceptueel, imaginair zijn of daadwerkelijk fysiek.   Vooral nu, anno 2015, komen er via Zuid-Europa immens veel vluchtelingen en gelukzoekers binnen en groeit daar het aantal grensmuren. Deze grensmuren fungeren niet alleen voor bescherming voor een <span class= "afb"><a href= "#beeldid">nationaal gebied </a></span>, maar reiken tot een ruimte wat heel Europa betreft. Dit is dan ook een duidelijk voorbeeld dat laat zien dat grensmuren meer inhouden dan een alleen een nationale grens. Deze vluchtelingen die de grenzen van Europa proberen te overbruggen overwegen levensgevaarlijke trajecten om armoede en oorlog in het thuisland te ontvluchten. Elke dag sterven er weer migranten door de grensmuur als wegversperring, waardoor voedsel en zorg uitblijven op kritieke momenten. ’De grensmuren die nu bestaan rond Europa maken de tocht gevaarlijker voor vluchtelingen en voordeliger voor mensensmokkelaars’, aldus professor Michel Foucher.</p>
 
 <p>
 Er zijn dan ook veel emoties betrokken rondom de muur als construct an sich. Voor sommigen kan het een bescherming zorgen en daarmee een gevoel van veiligheid, voor anderen kan staan voor een teken van dictatuur waardoor het een onderdrukkend gevoel kan geven. Voor anderen is een muur juist een construct waarop men zijn of haar onderdrukte of beschermde emoties kan uiten door middel van kunst. Straks zullen we ook zien dat er mensen opzettelijk een muur construeren om te ondervinden wat een muur doet in een omgeving waar je het niet verwacht.</p> 
@@ -205,7 +298,8 @@ Uiteindelijk ga ik elf verschillende casussen behandelen. Ik analyseer de ruimte
 Uiteindelijk heb ik grenzen gekozen die veel van elkaar verschillen, dus zowel van fysieke aard als imaginair, namelijk: De verdeelde woestijn in Marokko; de 99 muren in Belfast en Derry; de No Touching-zone tussen Canada en USA; de grens tussen Botswana en Zimbabwe; de kruipende grens van Rusland; de grens tussen India en Pakistan; de 38ste breedtegraad, ook wel de grens tussen Noord en Zuid-Korea; de grensmuur om de favela’s in Brazilië; de zee-engte van Gibraltar; de Running Fence van Christo en The Green Line van Francis Alÿs. Maar ik zal allereerst </p>
 
 
-<span class="next"> <a href="#vierid"> <h1> • </h1> </a></span>
+
+<span style= "margin-left: 46%;" class="next"><a href="#vierid">◆</a></span>
 
 </div>
 
@@ -230,7 +324,7 @@ Qua materiaal zit er ook een verschil tussen hekken en muren. Hekken klinken tij
 <p>Niet alle grenzen die er gemaakt worden hebben een van deze factoren hierboven. Ook zijn er kunstenaars die werk maken met het fenomeen grens die letterlijk landsgrenzen opzoeken en daar een statement mee willen maken. Of kritische kunstenaars die grensmuren willen doorbreken maar daar een eigen invulling aangeven.</p> 
 
 
-<span class="next"> <a href="#casusid"> <h1> • </h1> </a></span>
+<span style= "margin-left: 46%;" class="next"><a href="#casusid">◆</a></span>
 
 </div>
 
@@ -243,9 +337,8 @@ Qua materiaal zit er ook een verschil tussen hekken en muren. Hekken klinken tij
 
 
 <div id="casus">
-    <h1>CASUS ONDERZOEK</h1>
 
-<span class="next"> <a href="#botsid"> <h1> • </h1> </a></span>
+<a href="#botsid"><h3>CASUS ONDERZOEK</h3></a></span>
 
 </div>
 
@@ -257,7 +350,7 @@ Qua materiaal zit er ook een verschil tussen hekken en muren. Hekken klinken tij
 
 
 <div id="bots">
-<h1>Botswana <br>en Zimbabwe</h1>
+<h1>Botswana en Zimbabwe</h1>
 
 <p> 
 Tussen 2001-2003 brak er in het noordoosten van Botswana een epidemie van mond- en klauwzeer (MKZ) uit waarbij de vee-industrie zwaar getroffen werd. Zimbabwe werd beschuldigd van het verspreiden van deze besmettelijke ziekte die zorgde voor de nodige spanning tussen de nationale gemeenschappen.</p>
@@ -272,7 +365,8 @@ De Zimbabwaanse hoge commissaris van Gaborone, Phelekeza Mphoko, was het uiteraa
 
 
 
-<span class="next"> <a href="#runningid"> <h1> • </h1> </a></span>
+
+<span style= "margin-left: 46%;" class="next"><a href="#runningid">◆</a></span>
 </p>
 </div>
 
@@ -302,7 +396,8 @@ Deze grens is beschouw ik als natuurlijk door gebruik van het materiaal, het bew
 
 
 
-<span class="next"> <a href="#ruimteid"> <h1> • </h1> </a></span>
+
+<span style= "margin-left: 46%;" class="next"><a href="#ruimteid">◆</a></span>
 </p>
 </div>
 
@@ -317,7 +412,7 @@ Deze grens is beschouw ik als natuurlijk door gebruik van het materiaal, het bew
 
 
 <div id="ruimte">
-<h1>De grens vanuit de ruimte</h1>
+<h1>De grens <br>vanuit de ruimte</h1>
 
 <p> 
 In 1947 werd Brits-Indië onafhankelijk van de voormalige koloniale heerser Groot-Brittannië. Daaropvolgend werd het door moslims gedomineerde noordwesten al vrij snel afgescheiden van het oostelijke gedeelte, wat resulteerde in het ontstaan van twee verschillende natiestaten, namelijk Pakistan en India. Sinds de opsplitsing van land is er een constante strijd over de zeggenschap over de rijke en vruchtbare grensregio: Kasjmir. Vervolgens voerden ze onder het toeziend oog van de Verenigde Naties een staak-het-vuren in langs een lijn die door een overeenkomst (Verdrag van Shimla) in 1972 die Line of Control’ word genoemd. Deze lijn verdeelt het gebied op een zodanige manier dat India twee-derde en Pakistan een-derde in het noorden in handen krijgt.</p>
@@ -335,8 +430,8 @@ gang geeft tot bevrijding.
 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#breedtid">◆</a></span>
 
-<span class="next"> <a href="#breedtid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -364,8 +459,8 @@ Door middel van een simpel concept, namelijk waterstofballonnen, kunnen grenzen,
 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#belfastid">◆</a></span>
 
-<span class="next"> <a href="#38id"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -404,8 +499,8 @@ In 1969 ontstonden er gewelddadige rellen tussen de nationalistische katholieken
 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#bermid">◆</a></span>
 
-<span class="next"> <a href="#bermid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -432,7 +527,10 @@ Tot 1975 was de Westelijke Sahara een kolonie van de Spanjaarden. Toen die vertr
 <p> Opvallend is dat deze enorm lange grens, 2735 kilometer om precies te zijn, om de vijf kilometer een observatiepost heeft. In totaal zijn er dus bijna 550 observatieposten wat allemaal in een kort termijn is gerealiseerd. Wat deze grens anders maakt is dat het geen muur is zoals we die kennen, maar juist vanuit een natuurlijk product is gemaakt. Hij bestaat namelijk uit zand, ongeveer het enige wat er daar in de wijde omgeving te vinden is. De kenmerken van zand hebben in dit geval voordelen; het is namelijk een bewegelijk materiaal dat verschillende vormen kan aannemen. In het geval van het Marokkaanse leger hebben ze er bermen mee gemaakt, maar konden ze ook gemakkelijk veldmijnen er mee verbergen. Vandaar dat deze muur zo snel kon worden gerealiseerd. </p>
 
 
-<span class="next"> <a href="#greenid"> <h1> • </h1> </a></span>
+
+
+<span style= "margin-left: 46%;" class="next"><a href="#greenid">◆</a></span>
+
 </p>
 </div>
 
@@ -463,7 +561,8 @@ Francis Alÿs</p>
 <p> The Green Line zet de toeschouwer aan om te reflecteren over de gelaagdheid van het concept ‘grens’. Alÿs laat hiermee zien dat het belachelijk is dat één persoon, of een kleine groep personen een linie kan bepalen. Zo ook is het volgens hem bespottelijk dat de maatschappij zich zo gemakkelijk aan een grensmuur hecht. Terwijl de grens van oorsprong, wanneer hij werd bepaald door de Verenigde Naties, een denkbeeldig ontastbaar iets was.</p>
 
 
-<span class="next"> <a href="#zoneid"> <h1> • </h1> </a></span>
+<span style= "margin-left: 46%;" class="next"><a href="#zoneid">◆</a></span>
+
 </p>
 </div>
 
@@ -489,7 +588,8 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 <p>“Frontiers are indeed the razor‘s edge on which hang suspended the modern issues of war or peace, of life or death to nations.” Lord Curzon (1907)</p>
 
 
-<span class="next"> <a href="#rusid"> <h1> • </h1> </a></span>
+
+<span style= "margin-left: 46%;" class="next"><a href="#rusid">◆</a></span>
 </p>
 </div>
 
@@ -520,8 +620,8 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 <p>Uit het voorgaande komt een nieuwe manier van afbakening naar voren. Grenzen zijn namelijk in dit geval niet iets statisch, iets wat vast staat, en groepen mensen uit elkaar houdt. In dit geval hebben de grenzen een dubbele functie, namelijk het uitbreiden van het grondgebied met als bescherming de grens zelf én het uit elkaar houden van vijanden. 
 </p>
 
+<span style= "margin-left: 46%;" class="next"><a href="#favid">◆</a></span>
 
-<span class="next"> <a href="#favid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -551,8 +651,8 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 <p>Er is wetenschappelijk bewijs dat inderdaad onder de ‘lagere klasse’ meer criminaliteit voorkomt, hoewel, als je een andere vormen van criminaliteit die bekend zijn, bijvoorbeeld uitbuiting, vaak bedreven door rijke kapitaalzoekers, niet meetelt. Maar dan is de vraag: hoe gaat deze afscheiding uitwerken op de mensen? Zal crimineel gedrag niet veel hoger worden als sommige op deze manier worden buitengesloten? Met andere woorden: wat zijn de psychologische gevolgen als de mensen in de favela’s duidelijk bestempeld worden als minderwaardig?</p> 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#straatid">◆</a></span>
 
-<span class="next"> <a href="#straatid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -564,7 +664,7 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 
 
 <div id="straat">
-<h1>De Straat<br> van Gibraltar</h1>
+<h1>De Straat van Gibraltar</h1>
 
 <p>Een van de meest bekende zeestraat of zee-engte in Europa is de Straat van Gibraltar die tussen Marokko (Afrika) en Spanje (Europa) loopt. De straat is het zwaarste bewaakte punt in Europa.</p>  
 <p>De breedte verschilt tussen de 14 kilometer op het smalste stuk tot 44 km op het breedste stuk. In totaal heeft de zee-engte een lengte van 60 kilometer. In deze straat komen tevens de Middellandse Zee en de Atlantische Oceaan samen.</p> 
@@ -581,8 +681,8 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 </p> 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#conclusieid">◆</a></span>
 
-<span class="next"> <a href="#conclusieid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -609,8 +709,8 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 </p> 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#bronnenid">◆</a></span>
 
-<span class="next"> <a href="#conclusieid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
@@ -622,12 +722,14 @@ De grens tussen Canada en de Verenigde Staten is ontstaan als gevolg van zesentw
 <div id="bronnen">
 <h1>Bronnen</h1>
 
-<p>1. Robert Lee Frost was een Amerikaanse dichter en toneelschrijver. Zijn inspiratie haalde hij vooral uit de natuur, het weer en het landschap van New England. De streek waar hij woonde destijds. <br><br>
+<p>1. Robert Lee Frost was een Amerikaanse dichter en toneelschrijver. Zijn inspiratie haalde hij vooral uit de natuur, het weer en het landschap van New England. De streek waar hij woonde destijds. <a href= "#inleidingid">↩</a><br><br>
 
 
-  2. Lothar Boeykens, “Muren die de wereld verdelen”, http://mo.be/nieuws/muren-die-de-wereld-verdelen, 14 oktober, 2014  <br><br>
+  2. Lothar Boeykens, “Muren die de wereld verdelen”, https://mo.be/nieuws/muren-die-de-wereld-verdelen, 14 oktober, 2014  <br><br>
 
   3. Henk van Houtum, “Hoeveel grens hebben we nodig”, http://www.groene.nl/artikel/hoeveel-grens-hebben-we-nodig, 4 november 2009  <br><br>
+
+
 
   4. Stéphane Rosière & Reece Jones (2012) Teichopolitics: Re-considering Globalisation Through the Role of Walls and Fences, Geopolitics, 17:1, 217-234  <br><br>
 
@@ -705,73 +807,157 @@ Dick Wittenberg, 2015, Prikkeldraad: een geschiedenis van goed en kwaad, Uitgeve
 </p> 
 
 
+<span style= "margin-left: 46%;" class="next"><a href="#startid">◆</a></span>
 
-<span class="next"> <a href="#startid"> <h1> • </h1> </a></span>
 </p>
 </div>
 
 
 
+
 <div id="beeldid">
-<span class="next"><a href="#IMG2"><img src="images/1511webapp9-980x624.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#belfastid">De 99 muren van Belfast</a></span>
+<span ><a href="#IMG2"><img src="images/1511webapp9-980x624.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#belfastid">De 99 muren van Belfast</a></span>
 </div>
 
 <div id="IMG2">
-<span class="next"><a href="#IMG3"><img src="images/3573-415-311.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#greenid">The Green Line</a></span>
+<span ><a href="#IMG3"><img src="images/3573-415-311.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#greenid">The Green Line</a></span>
 </div>
 
 <div id="IMG3">
-<span class="next"><a href="#IMG4"><img src="images/96077295.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#botsid">Botswana en Zimbabwe</a></span>
+<span ><a href="#IMG4"><img src="images/96077295.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#botsid">Botswana en Zimbabwe</a></span>
 </div>
 
 <div id="IMG4">
-<span class="next"><a href="#IMG5"><img src="images/130319233059-north-korea-dmz-9-story-top.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#breedtid">De 38e breedtegraad</a></span>
+<span ><a href="#IMG5"><img src="images/130319233059-north-korea-dmz-9-story-top.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#breedtid">De 38e breedtegraad</a></span>
 </div>
 
 <div id="IMG5">
-<span class="next"><a href="#IMG6"><img src="images/lijn.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#zoneid">No touching zone</a></span>
+<span ><a href="#IMG6"><img src="images/lijn.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#zoneid">No touching zone</a></span>
 </div>
 
 <div id="IMG6">
-<span class="next"><a href="#IMG7"><img src="images/article-0-0DB763AF00000578-94_964x639.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#ruimteid">De grens vanuit de ruimte</a></span>
+<span ><a href="#IMG7"><img src="images/article-0-0DB763AF00000578-94_964x639.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#ruimteid">De grens vanuit de ruimte</a></span>
 </div>
 
 <div id="IMG7">
-<span class="next"><a href="#IMG8"><img src="images/bermmarokko.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#bermid">De Marokkaanse berm</a></span>
+<span ><a href="#IMG8"><img src="images/bermmarokko.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#bermid">De Marokkaanse berm</a></span>
 </div>
 
 <div id="IMG8">
-<span class="next"><a href="#IMG9"><img src="images/brazil.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#favid">De Braziliaanse favela's</a></span>
+<span ><a href="#IMG9"><img src="images/brazil.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#favid">De Braziliaanse favela's</a></span>
 </div>
 
 <div id="IMG9">
-<span class="next"><a href="#IMG10"><img src="images/gibraltar_05.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#straatid">De Straat van Gibraltar</a></span>
+<span ><a href="#IMG10"><img src="images/gibraltar_05.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#straatid">De Straat van Gibraltar</a></span>
 </div>
 
 <div id="IMG10">
-<span class="next"><a href="#IMG11"><img src="images/greetings_at_the_barbed_wire.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#rusid">Het conflict tussen Rusland en Georgië</a></span>
+<span ><a href="#IMG11"><img src="images/greetings_at_the_barbed_wire.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#rusid">Het conflict tussen Rusland en Georgië</a></span>
 </div>
 
 <div id="IMG11">
-<span class="next"><a href="#IMG12"><img src="images/irish.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#belfastid">De 99 muren van Belfast</a></span>
+<span ><a href="#IMG12"><img src="images/irish.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#belfastid">De 99 muren van Belfast</a></span>
 </div>
 
 
 <div id="IMG12">
-<span class="next"><a href="#IMG13"><img src="images/The-Green-Line-by-Francis-006.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#greenid">The Green Line</a></span>
+<span ><a href="#IMG13"><img src="images/The-Green-Line-by-Francis-006.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#greenid">The Green Line</a></span>
 </div>
 
 <div id="IMG13">
-<span class="next"><a href="#IMG14"><img src="images/man-escaping0zimbabwe-2008.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#botsid">Botswana en Zimbabwe</a></span>
+<span ><a href="#IMG14"><img src="images/man-escaping0zimbabwe-2008.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#botsid">Botswana en Zimbabwe</a></span>
 </div>
 
 <div id="IMG14">
-<span class="next"><a href="#IMG15"><img src="images/runningfence.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#runningid">The Running Fence</a></span>
+<span ><a href="#IMG15"><img src="images/runningfence.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#runningid">The Running Fence</a></span>
 </div>
 
 <div id="IMG15">
-<span class="next"><a href="#startid"><img src="images/wtf-js-slash110613.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#zoneid">No touching zone</a></span>
+<span ><a href="#startid"><img src="images/wtf-js-slash110613.jpg" width="800px"></a></span><br><span class="onderschrift"><a href="#zoneid">No touching zone</a></span>
 </div>
+
+
+
+
+
+
+<div id="KAART1">
+<span ><a href="#KAART2"><img src="images/1-s2.0-S0962629802000136-gr2.jpg" width="400px"></a></span><br><span class="onderschrift"><a href="#belfastid">De 99 muren van Belfast</a></span>
+</div>
+
+
+<div id="KAART2">
+<span ><a href="#KAART3"><img src="images/864x486.jpg" width="600px"></a></span><br><span class="onderschrift"><a href="#rusid">Het conflict tussen Rusland en Georgië</a></span>
+</div>
+
+<div id="KAART3">
+<span ><a href="#KAART4"><img src="images/article-2247487-1680638B000005DC-200_634x418.jpg" width="600px"></a></span><br><span class="onderschrift"><a href="#straatid">De Straat van Gibraltar</a></span>
+</div>
+
+<div id="KAART4">
+<span ><a href="#KAART5"><img src="images/Botswana-Vet-Fence-Map.jpg" width="500px"></a></span><br><span class="onderschrift"><a href="#botsid">Botswana en Zimbabwe</a></span>
+</div>
+
+<div id="KAART5">
+<span ><a href="#KAART6"><img src="images/canada_pol_94.jpg" width="500px"></a></span><br><span class="onderschrift"><a href="#zoneid">No touching zone</a></span>
+</div>
+
+
+<div id="KAART6">
+<span ><a href="#KAART7"><img src="images/carte5.1280581170.jpg" width="500px"></a></span><br><span class="onderschrift"><a href="#greenid">The Green Line</a></span>
+</div>
+
+
+<div id="KAART7">
+<span ><a href="#KAART8"><img src="images/indian-pak-border.jpg" width="600px"></a></span><br><span class="onderschrift"><a href="#ruimteid">De grens vanuit de ruimte</a></span>
+</div>
+
+
+<div id="KAART8">
+<span ><a href="#KAART9"><img src="images/running21.jpg" width="750px"></a></span><br><span class="onderschrift"><a href="#runningid">The Running Fence</a></span>
+</div>
+
+<div id="KAART9">
+<span ><a href="#KAART10"><img src="images/running22.jpg" width="750px"></a></span><br><span class="onderschrift"><a href="#runningid">The Running Fence</a></span>
+</div>
+
+
+
+<div id="KAART10">
+<span ><a href="#KAART11"><img src="images/favfav1.jpg" width="500px"></a></span><br><span class="onderschrift"><a href="#favid">De Braziliaanse favela's</a></span>
+</div>
+
+
+<div id="KAART11">
+<span ><a href="#KAART12"><img src="images/korea.jpg" width="750px"></a></span><br><span class="onderschrift"><a href="#breedtid">De 38e breedtegraad</a></span>
+</div>
+
+<div id="KAART12">
+<span ><a href="#startid"><img src="images/the-end-of-spanish-rule-in-the-sahara_morocco_map_history6_720px.jpg" width="600px"></a></span><br><span class="onderschrift"><a href="#bermid">De Marokkaanse berm</a></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
