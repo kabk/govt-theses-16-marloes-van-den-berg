@@ -68,6 +68,10 @@ $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
+    if($(this).attr('href').indexOf('http') >= 0) {
+        return;
+    }
+
     // Prevent default anchor click behavior
     event.preventDefault();
 
@@ -760,7 +764,7 @@ Daarnaast heb ik ook gezien dat de esthetiek, de vormen van de grensmuur, emotie
 <p>1. Robert Lee Frost was een Amerikaanse dichter en toneelschrijver. Zijn inspiratie haalde hij vooral uit de natuur, het weer en het landschap van New England. De streek waar hij woonde destijds. <a href= "#inleidingid">↩</a><br><br>
 
 
-  2. Lothar Boeykens, “Muren die de wereld verdelen”, https://mo.be/nieuws/muren-die-de-wereld-verdelen, 14 oktober, 2014  <br><br>
+  2. Lothar Boeykens, “Muren die de wereld verdelen”, <a href="https://mo.be/nieuws/muren-die-de-wereld-verdelen">https://mo.be/nieuws/muren-die-de-wereld-verdelen</a>, 14 oktober, 2014  <br><br>
 
   3. Henk van Houtum, “Hoeveel grens hebben we nodig”, http://www.groene.nl/artikel/hoeveel-grens-hebben-we-nodig, 4 november 2009  <br><br>
 
