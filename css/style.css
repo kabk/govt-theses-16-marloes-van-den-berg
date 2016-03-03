@@ -9,7 +9,7 @@ a{
 body{  color:#000; 
         background-color:#fff; 
         font-size:25px;
-      /*  background-image: url(../images/test_test_test33.png); */
+       background-image: url(../images/test_test_test33.png); 
         background-repeat: no-repeat;
         background-size: cover;
       }
