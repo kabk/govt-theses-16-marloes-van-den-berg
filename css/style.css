@@ -528,7 +528,7 @@ position:absolute;
 #straatid {
  position:absolute;
   content: " "; 
-  margin-top:110px; 
+  margin-top:50px; 
   margin-left:6400px;
   visibility: hidden; 
 }
@@ -537,7 +537,7 @@ position:absolute;
 
 #straat {
   position:absolute;
-  margin-top:150px;
+  margin-top:90px;
   margin-left:6700px;
   width:600px;
   padding:10px;
