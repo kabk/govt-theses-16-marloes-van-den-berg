@@ -1,7 +1,15 @@
-@page {
+@media print{ 
+
+
+
+	@page {
 
 	size: 10000px 10000px;
 	margin:50px;
 nav{ display:none;}
 }
 
+printanders{display:none;}
+ietsanders{display:none;}
+
+}
